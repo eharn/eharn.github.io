@@ -18,7 +18,7 @@ img {
   float: right;
   width: 250px;
   margin-top: 20px;
-  margin-right: 20px;
+  margin-right: 50px;
   box-shadow: 8px 8px 8px black;
   max-width: 100%;
 }
@@ -34,10 +34,12 @@ body {
 footer {
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     background-color: cadetblue;
-    padding: 10px;
     text-align: center;
     border-radius: 10px;
     color: white;
+    padding: 10px;
 }
- 
 
+p {
+    margin: -1px;
+}
