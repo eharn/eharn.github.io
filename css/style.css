@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+header {
+    background-color: cadetblue;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+}
+
+div {
+    margin-left: 50px;
+}
+
+img {
+  display: block;
+  float: right;
+  width: 250px;
+  margin-top: 20px;
+  margin-right: 20px;
+  box-shadow: 8px 8px 8px black;
+  max-width: 100%;
+}
+
+
+body {
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    padding: 30px;
+    
+
+}
+
+footer {
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    background-color: cadetblue;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+ 
+
