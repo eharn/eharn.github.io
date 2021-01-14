@@ -1,0 +1,21 @@
+@media only screen and (min-width: 32.5em){
+
+img {
+    display: block;
+    float: right;
+    width: 200px;
+    margin-top: 10px;
+    margin-right: 50px;
+    box-shadow: 8px 8px 8px black;
+    max-width: 100%;
+    
+}
+header {
+    font-size: 20px;
+    border-radius: 10px;
+    height: 150px;
+}
+footer {
+    border-radius: 10px;
+}
+}
