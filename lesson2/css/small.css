@@ -24,11 +24,9 @@ header {
     min-width: 200px;
 
 }
-img {
-    width: 200px;
-    max-width: auto;
 
-    
+img{
+    width: 200px;
 }
 
 main {
@@ -70,7 +68,6 @@ main {
 p, div a {
    margin-left: 20px;
    margin-right: 20px;
-
    font-size: 10pt;
 }
 
