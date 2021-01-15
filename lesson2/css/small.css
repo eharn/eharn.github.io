@@ -20,10 +20,12 @@ header {
     text-align: center;
     padding: 20px;
     margin: 40px;
-    font-family: Quicksand, Arial, Helvetica, sans-serif;  
+    font-family: Quicksand, Arial, Helvetica, sans-serif; 
+    min-width: 200px;
 
 }
 img {
+    width: 200px;
     max-width: auto;
 
     
@@ -47,6 +49,7 @@ main {
 }
 
 .church {
+
     grid-column: 3/4;
     background-color: lightgrey;
     border-style: solid;
@@ -67,7 +70,8 @@ main {
 p, div a {
    margin-left: 20px;
    margin-right: 20px;
-   margin-top: -10px;
+
+   font-size: 10pt;
 }
 
 footer {
