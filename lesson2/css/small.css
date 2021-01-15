@@ -15,6 +15,7 @@ h3 {
 }
 
 header {
+    width: 100%;
     background-color: teal;
     color: white;
     text-align: center;

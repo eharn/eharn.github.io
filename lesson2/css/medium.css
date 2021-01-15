@@ -13,9 +13,6 @@
 
     
     main {
-        display: grid;
-        grid-gap: 30px;
-        grid-template-columns: 20px 1fr 1fr 1fr 1fr 1fr 1fr 20px;
         grid-template-rows: 2/5;
         
     }
@@ -31,10 +28,6 @@
         grid-column: 3/4;
     }
     
-    footer {
-       display: grid;
-       grid-template-columns: 20px 1fr 1fr 1fr 1fr 1fr 1fr 20px;
-    }
     footer p {
         grid-column: 2/8;
     }
