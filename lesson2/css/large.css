@@ -9,9 +9,11 @@
 .disney {
     grid-column: 5/6;
 }
-
+header {
+    height: 200px;
+}
 h1 {
-    font-size: 60px;
+    font-size: 45px;
 }
 h2{
     font-size: 35px;
