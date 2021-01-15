@@ -13,6 +13,9 @@
 
     
     main {
+        display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 10px 1fr 1fr 1fr 1fr 1fr 1fr 10px;
         grid-template-rows: 2/5;
         
     }
