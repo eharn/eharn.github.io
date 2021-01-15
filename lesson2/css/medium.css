@@ -1,0 +1,41 @@
+@media only screen and (min-width: 600px){
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+ 
+    h1 {
+        font-size: 50px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+
+    
+    main {
+        display: grid;
+        grid-gap: 30px;
+        grid-template-columns: 20px 1fr 1fr 1fr 1fr 1fr 1fr 20px;
+        grid-template-rows: 2/5;
+        
+    }
+    .melaleuca {
+        grid-column: 3/4;
+    }
+    
+    .church {
+      grid-column: 4/5;
+    }
+    
+    .disney {
+        grid-column: 3/4;
+    }
+    
+    footer {
+       display: grid;
+       grid-template-columns: 20px 1fr 1fr 1fr 1fr 1fr 1fr 20px;
+    }
+    footer p {
+        grid-column: 2/8;
+    }
+    

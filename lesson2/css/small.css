@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+h1 {
+    font-size: 30px;
+}
+h2{
+    font-size: 18px;
+}
+h3 {
+    background-color:darkslategray;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: teal;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 40px;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;  
+
+}
+img {
+    max-width: auto;
+
+    
+}
+
+main {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 10px 1fr 1fr 1fr 1fr 1fr 1fr 10px;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+}
+.melaleuca {
+    grid-column: 3/4;
+    background-color: lightgrey;
+    border-style: solid;
+    border-color: black;
+    border-width: .5px;
+    border-radius: 20px; 
+
+    
+}
+
+.church {
+    grid-column: 3/4;
+    background-color: lightgrey;
+    border-style: solid;
+    border-color: black;
+    border-width: .5px;
+    border-radius: 20px; 
+}
+
+.disney {
+    grid-column: 3/4;
+    background-color: lightgrey;
+    border-style: solid;
+    border-color: black;
+    border-width: .5px;
+    border-radius: 20px; 
+}
+
+p, div a {
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-top: -10px;
+}
+
+footer {
+   display: grid;
+   grid-template-columns: 20px 1fr 1fr 1fr 1fr 1fr 1fr 20px;
+}
+footer p {
+    background-color: teal;
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+    grid-column: 2/8;
+}

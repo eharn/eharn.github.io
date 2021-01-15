@@ -1,0 +1,21 @@
+@media only screen and (min-width: 900px){.melaleuca {
+    grid-column: 3/4;
+}
+
+.church {
+  grid-column: 4/5;
+}
+
+.disney {
+    grid-column: 5/6;
+}
+
+h1 {
+    font-size: 60px;
+}
+h2{
+    font-size: 35px;
+}
+h3 {
+    font-size: 20px;
+}
