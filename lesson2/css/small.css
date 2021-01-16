@@ -39,7 +39,6 @@ div a, div img {
     display: grid;
     grid-gap: 40px;
     grid-template-columns: 1fr 1fr 1fr;
-
 }
 
 div a, p {

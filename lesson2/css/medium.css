@@ -1,6 +1,4 @@
-@media only screen and (min-width: 600px){
-    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
- 
+@media only screen and (min-width: 600px){ 
     h1 {
         font-size: 30px;
     }
@@ -39,6 +37,4 @@ header {
     img {
         width: 350px;
     }
-
-    
 }
