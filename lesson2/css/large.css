@@ -17,6 +17,12 @@ main {
     .disney {
         grid-column: 4/5;
     }
+
+    div a, div img { 
+        display: grid;
+        grid-gap: 40px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 header {
     height: 200px;
 }

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px){ 
+@media only screen and (min-width: 800px){ 
     h1 {
         font-size: 30px;
     }
@@ -11,7 +11,12 @@
 header {
     height: 150px;
     }   
-    
+    div a, { 
+        display: grid;
+        grid-gap: 40px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
     main {
     display: grid;
     grid-gap: 20px;
@@ -19,6 +24,7 @@ header {
     }
 
     .melaleuca {
+        min-width: 200px;
         grid-column: 2/3;
     }
     
@@ -34,7 +40,5 @@ header {
         grid-column: 1/5;
     }
     
-    img {
-        width: 350px;
-    }
+  
 }
