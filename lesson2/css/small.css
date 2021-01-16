@@ -12,6 +12,8 @@ h3 {
     font-size: 20px;
     padding: 20px;
     margin-bottom: 20px;
+    margin-top: 0;
+    border-radius: 20px 20px 0px 0px;
 }
 
 header {
@@ -22,23 +24,24 @@ header {
     text-align: center;
     padding: 20px;
     font-family: Quicksand, Arial, Helvetica, sans-serif; 
-    min-width: 200px;
+    min-width: 400px;
 
 }
 
 img{
-    width: 200px;
+    width: 350px;
 }
 
 main {
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: 10px 1fr 1fr 1fr 1fr 1fr 1fr 10px;
+    grid-template-columns: 50px 1fr 50px;
     font-family: Quicksand, Arial, Helvetica, sans-serif;
     min-width: 200px;
+    max-width: 200px;
 }
 .melaleuca {
-    grid-column: 3/4;
+    grid-column: 2/2;
     background-color: lightgrey;
     border-style: solid;
     border-color: black;
@@ -51,7 +54,7 @@ main {
 
 .church {
 
-    grid-column: 3/4;
+    grid-column: 2/2;
     background-color: lightgrey;
     border-style: solid;
     border-color: black;
@@ -61,7 +64,7 @@ main {
 }
 
 .disney {
-    grid-column: 3/4;
+    grid-column: 2/2;
     background-color: lightgrey;
     border-style: solid;
     border-color: black;
@@ -78,12 +81,13 @@ p, div a {
 
 footer {
    display: grid;
-   grid-template-columns: 20px 1fr 1fr 1fr 1fr 1fr 1fr 20px;
+   grid-template-columns: 1fr 1fr 1fr;
 }
 footer p {
     background-color: teal;
     text-align: center;
     padding: 30px;
     margin-top: 20px;
-    grid-column: 2/8;
+    grid-column: 1/5;
+    min-width: 400px;
 }

@@ -2,13 +2,23 @@
     grid-column: 3/4;
 }
 
-.church {
-  grid-column: 4/5;
-}
-
-.disney {
-    grid-column: 5/6;
-}
+main {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        
+    }
+    .melaleuca {
+        grid-column: 2/3;
+    }
+    
+    .church {
+      grid-column: 3/4;
+    }
+    
+    .disney {
+        grid-column: 4/5;
+    }
 header {
     height: 200px;
 }

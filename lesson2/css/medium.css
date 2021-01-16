@@ -15,26 +15,24 @@ header {
 }
     
     main {
-        display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 10px 1fr 1fr 1fr 1fr 1fr 1fr 10px;
-        grid-template-rows: 2/5;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         
     }
     .melaleuca {
-        grid-column: 3/4;
+        grid-column: 2/3;
     }
     
     .church {
-      grid-column: 4/5;
+      grid-column: 3/4;
     }
     
     .disney {
-        grid-column: 3/4;
+        grid-column: 2/3;
     }
     
     footer p {
-        grid-column: 2/8;
+        grid-column: 1/5;
     }
     
     img {
