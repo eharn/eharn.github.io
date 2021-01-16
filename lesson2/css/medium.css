@@ -17,21 +17,20 @@ header {
 
     main {
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr; 
     }
 
     .melaleuca {
         min-width: 200px;
-        grid-column: 2/3;
+        grid-column: 1/2;
     }
     
     .church {
-      grid-column: 3/4;
+      grid-column: 2/3;
     }
     
     .disney {
-        grid-column: 2/3;
+        grid-column: 1/2;
     }
     
     footer p {
