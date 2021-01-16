@@ -1,4 +1,4 @@
-@media only screen and (min-width: 800px){ 
+@media only screen and (min-width: 600px){ 
     h1 {
         font-size: 30px;
     }
@@ -11,11 +11,9 @@
 header {
     height: 150px;
     }   
-    div a, { 
-        display: grid;
-        grid-gap: 40px;
-        grid-template-columns: 1fr 1fr 1fr;
-    }
+  img {
+      width: 100%;
+  }
 
     main {
     display: grid;
