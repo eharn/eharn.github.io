@@ -6,19 +6,21 @@
         }
 
     .melaleuca {
+
         grid-column: 1/2;
     }
     
     .church {
+
       grid-column: 2/3;
     }
     
     .disney {
+  
         grid-column: 3/4;
     }
-   
 
-  
+
 header {
     height: 200px;
 }

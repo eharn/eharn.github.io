@@ -87,6 +87,7 @@ footer {
 }
 footer p {
     background-color: teal;
+    color: white;
     text-align: center;
     padding: 30px;
     margin-top: 20px;
