@@ -98,3 +98,11 @@ footer p {
 header, main, footer {
     margin: 0 auto;
 }
+
+a:link {
+    color: white;
+}
+
+a:visited {
+   color: thistle; 
+}
