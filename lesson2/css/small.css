@@ -99,10 +99,10 @@ header, main, footer {
     margin: 0 auto;
 }
 
-a:link {
+footer a:link {
     color: white;
 }
 
-a:visited {
-   color: thistle; 
+footer a:visited {
+   color:thistle; 
 }
