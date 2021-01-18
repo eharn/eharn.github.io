@@ -47,3 +47,7 @@ p {
 nav {
     background-color: teal;
 }
+
+a:visited {
+    color: rgb(0, 6, 27);
+}
