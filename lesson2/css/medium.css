@@ -16,6 +16,7 @@ header {
   }
 
     main {
+    grid-gap: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr; 
     }
@@ -37,5 +38,10 @@ header {
         grid-column: 1/5;
     }
     
+header, main, footer {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
   
 }

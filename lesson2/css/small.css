@@ -94,3 +94,7 @@ footer p {
     grid-column: 1/5;
     min-width: 400px;
 }
+
+header, main, footer {
+    margin: 0 auto;
+}

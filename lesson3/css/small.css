@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+body {
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    background-color: lightgoldenrodyellow;
+    margin-top: 20px;
+}
+
+header {
+display: block;
+background-color: white;
+height: 225px;
+text-align: left;
+padding-left: 40px;
+}
+
+.intro  {
+  padding-bottom: 50px;
+}
+
+
+h1 {
+    font-size: 60px;
+    padding-top: 30px;
+}
+
+header, h1, h3 {
+    margin-top: -20px;
+}
+
+h3 {
+margin-top: -50px;
+margin-left: 10px;
+font-size: 16px;
+}
+
+.type, h3 {
+ padding-top: 10px;
+}
+
+p, h2 {
+    padding: 20px;
+}
+
+img {
+    margin-top: 25px;
+}
+
+hr {
+    margin-right: 40px;
+}
+nav {
+    background-color: rgb(11, 164, 175);
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ nav ul li a {
+     display: block;
+     color: white;
+     padding: 0.75rem;
+     text-decoration: none;
+     font-size: 18px;
+ }
+
+ nav a:hover {
+     background-color: rgb(5, 69, 73);
+     color: white;
+     height: 100%
+ }
+
+ header, nav, main, footer {
+     max-width: 750px;
+     margin: 0 auto;
+ }
+
+ footer {
+     display: flex;
+     background-color: white;
+ }

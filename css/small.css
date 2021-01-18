@@ -41,5 +41,9 @@ p {
 }
 
 .mod {
-    color: darksalmon;
+    color: white;
+}
+
+nav {
+    background-color: teal;
 }
