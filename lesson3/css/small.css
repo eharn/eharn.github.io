@@ -75,13 +75,15 @@ nav ul {
      height: 100%
  }
 
- header, nav, main, footer {
+ header, nav, main {
      max-width: 750px;
      margin: 0 auto;
  }
-
+footer p {
+   margin-bottom: -40px;
+}
  footer {
-     display: flex;
+     display: block;
      background-color: white;
-     margin-bottom: 20px;
+     text-align: center;
  }
