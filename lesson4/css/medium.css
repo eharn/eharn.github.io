@@ -1,5 +1,12 @@
 @media only screen and (min-width: 37.5em){ 
 
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 25px;
+    }
+
 .navbar {
     display: flex;
 }
@@ -18,10 +25,9 @@
 }
 
 header img {
-    margin-top: 35px;
-    grid-column: 2/3;
+   margin: 0;
+ 
+
 }
-header h1 {
-    grid-column: 3/5;
-}
+
 }
