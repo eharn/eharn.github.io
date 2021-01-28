@@ -1,0 +1,27 @@
+@media only screen and (min-width: 37.5em){ 
+
+.navbar {
+    display: flex;
+}
+
+.navbar li {
+    display: block;
+    flex: 1 1 auto;
+}
+
+.navbar a {
+    text-align: center;
+}
+
+.navbar li:first-child {
+    display: none;
+}
+
+header img {
+    margin-top: 35px;
+    grid-column: 2/3;
+}
+header h1 {
+    grid-column: 3/5;
+}
+}
