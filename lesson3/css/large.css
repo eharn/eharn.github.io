@@ -1,11 +1,13 @@
 @media only screen and (min-width: 60em) {
 
-nav a {
-    font-size: 30px;
+nav a{
+    font-size: 30px;   
 }
-main {
-    grid-template-columns: 1fr 1fr 1fr;
+
+nav li {
+    flex: 1 1 auto;
 }
+
 footer {
     text-align: center;
     padding-bottom: -10px;
