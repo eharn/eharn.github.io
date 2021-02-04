@@ -1,0 +1,17 @@
+@media only screen and (min-width: 37.5em){ 
+
+    .summary {
+        position: absolute;
+        top: 25px;
+        right: 50px;
+        background: #ffffff;
+        padding: 1.5rem;
+        border: 1px solid #000;
+        box-shadow: 0 0 30px #111;
+        opacity: .8;
+    
+    }
+
+
+
+}
