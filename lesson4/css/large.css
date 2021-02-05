@@ -25,9 +25,10 @@
 
 header img {
    margin: 0;
- 
-
 }
 
+.summary {
+    display: flex;
+}
 
 }

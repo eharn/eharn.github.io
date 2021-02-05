@@ -23,10 +23,17 @@
     display: none;
 }
 
-header img {
-   margin: 0;
- 
-
+.phones {
+    display: block;
+    float: right;
+    display: block;
+    opacity: .8;
+    min-width: 240px;
+    box-shadow: 0 0 30px #111;
+    width: 200px;
+    border: 1px solid black;
+    margin-top: -85px;
+    margin-right: 20px;
 }
 
 
