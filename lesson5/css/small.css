@@ -161,7 +161,7 @@ nav {
     background-color: black;
 }
 
-.fridaybanner {
+#fridaybanner {
     display: block;
     margin: 10px auto;
     background-color: rgb(214, 72, 98);

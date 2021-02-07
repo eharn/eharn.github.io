@@ -19,6 +19,7 @@ var date = week + ", " + day + " " + month + " " + year;
 
 document.getElementById("currentdate").textContent = date;
 
-
-if (day == 6) {
-    
+if (5 == d.getDay()) {
+    var fri = document.getElementById("fridaybanner");
+    fri.style.display = "block";
+}
