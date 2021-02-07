@@ -1,23 +1,38 @@
 @media only screen and (min-width: 715px){ 
 
+
+header h1 {
+    font-size: 40px;
+    margin-bottom: -7px;
+}
+  
+
     header img {
-        margin: 0;
+        align-self: center;
+        justify-self: end;
     }
 
-    .hero img {
+header p {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+    .hero {
         display: block;
-        position: relative;
         margin-left: auto;
         margin-right: auto;
         margin: 10px auto;
         position: relative;
         max-width: 760px;
     }
+    .hero img {
+       max-width: 760px;
+    }
 
  .summary {
         position: absolute;
         top: 25px;
-        right: 25rem;
+        right: 2rem;
         background: #ffffff;
         padding: 1.5rem;
         border: 1px solid #000;
@@ -71,5 +86,23 @@
   position: absolute;
   top: 10px;
 }
+
+
+.forecast {
+    display: flex;
+    max-width: 769px;
+    margin: 10px auto;
+    min-width: 340px;
+}
+
+.forecast div {
+    margin: 10px auto;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100px;
+    border: 1px solid black;
+}
+
 
 }

@@ -1,10 +1,11 @@
 @media only screen and (min-width: 917px) {
-    header {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 25px;
-    }
+header h1{
+    font-size: 40px;
+}
+
+header p {
+
+}
 
 .navbar {
     display: flex;
@@ -21,19 +22,6 @@
 
 .navbar li:first-child {
     display: none;
-}
-
-.phones {
-    display: block;
-    float: right;
-    display: block;
-    opacity: .8;
-    min-width: 240px;
-    box-shadow: 0 0 30px #111;
-    width: 200px;
-    border: 1px solid black;
-    margin-top: -85px;
-    margin-right: 20px;
 }
 
 

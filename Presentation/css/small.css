@@ -6,9 +6,4 @@ img {
     filter: blur(0em);
     transition: filter 2.5s;
 }
-video {
-    width: 320px;
-    height: 240px;
-}
 
-}
