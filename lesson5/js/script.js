@@ -20,6 +20,5 @@ var date = week + ", " + day + " " + month + " " + year;
 document.getElementById("currentdate").textContent = date;
 
 
-    if (day[6]){
-        document.getElementById('fridaybanner').style.display = "block";
-        }
+if (day == 6) {
+    
