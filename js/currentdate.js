@@ -8,3 +8,4 @@ let year = d.getFullYear();
 
 document.getElementById("currentdate").textContent = year;
 document.getElementById("lastmodified").textContent = mod;
+
