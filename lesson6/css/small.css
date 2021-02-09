@@ -1,0 +1,187 @@
+
+
+body {
+    background-color: #FFF8D5;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #FFFFFF;
+    font-size: 17px;  
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    min-width: 330px;
+    margin-top: 30px;
+    box-shadow: 0 0 30px #111;
+}
+
+header p {
+    margin-top: -20px;
+    grid-column: 2/4;
+    padding-bottom: 10px;
+}
+
+header img {
+    grid-column: 2/3;
+    width: 150px;
+    margin-top: 60px;
+    align-content: end;
+}
+
+header h1 {
+    grid-column: 3/4;
+    justify-self: start;
+    align-self: center;
+}
+
+
+nav {
+    margin: 0 auto;
+    max-width: 760px;
+    background-color: #56545E;
+}
+
+.navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li:first-child {
+    display: block;
+}
+
+.navbar li {
+    display: none;
+}
+
+.navbar a {
+    display: block;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.navbar a:hover {
+    color:  #000000;
+    background-color: #BFBDC1;
+}
+
+.responsive li {
+    display: block;
+}
+
+.name, h2 {
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.footer2 {
+    display: block;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000;
+    padding: 10px;
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 30px #111;
+}
+
+ main picture.heroimg img {
+    width: 100%;
+    margin: 10px auto;
+}
+
+.hero {
+    position: relative;
+    width: 80%;
+    margin: 10px auto;
+}
+.summary {
+    background: #ffffff;
+    padding: 1.5rem;
+    border: 1px solid #000;
+    margin: 10px auto;
+    min-width: 150px;
+}
+
+.fiveday {
+    max-width: 760px;
+    background: white;
+    margin: 20px auto;
+}
+
+.fiveday {
+    background: #56545E;
+    color: white;
+}
+
+.article {
+    display: block;
+    background: #ffffff;
+    padding: 1.5rem;
+    border: 1px solid #000;
+    opacity: .8;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.article img {
+    max-width: 315px;
+}
+
+.footer1 {
+    display: block;
+    background-color: #BFBDC1;
+    color: black;
+    text-align: left;
+    padding: 10px;
+    height: 300px;
+    font-size: 12px;
+}
+
+.map {
+    display: block;
+    top: 25px;
+    right: 50px;
+    opacity: .8;
+    min-width: 240px;
+    box-shadow: 0 0 30px #111;
+    margin: 10px auto;
+    width: 50px;
+    border: 1px solid white;
+}
+
+.active {
+    background-color: black;
+}
+
+#fridaybanner {
+    display: block;
+    margin: 10px auto;
+    background-color: rgb(214, 72, 98);
+    padding: 20px;
+    max-width: 760px;
+    color: white;
+    text-align: center;
+}
+
+.forecast {
+    display: block;
+}
+
+.forecast div {
+    margin: 10px auto;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    border: 1px solid black;
+}
+
