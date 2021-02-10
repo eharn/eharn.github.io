@@ -23,3 +23,4 @@ if (5 == d.getDay()) {
     var fri = document.getElementById("fridaybanner");
     fri.style.display = "block";
 }
+
