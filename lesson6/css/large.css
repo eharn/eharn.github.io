@@ -3,6 +3,9 @@
         font-size: 40px;
     }
     
+.map {
+    width: 400px;
+}
     
     .summary {
         font-size: 15px;

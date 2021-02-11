@@ -60,30 +60,6 @@
         margin: 5px auto;
     }
     
-    .article {
-        display: flex;
-        max-width: 760px;
-        margin: 0 auto;
-    }
-    
-    .article img {
-        height: 100%;
-        float: right;
-        margin-top: -30px;
-        box-shadow: 0 0 30px #111;
-        margin: 20px;
-        width: 200px;
-    }
-    
-    .article h3 {
-        padding-right: 10px;
-    }
-    .article p {
-        margin-top: 18px;
-    }
-    
-  
-    
     .footer1 {
         display: block;
         position: relative;
