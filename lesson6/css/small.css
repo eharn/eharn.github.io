@@ -163,7 +163,7 @@ nav {
 }
 
 #fridaybanner {
-    display: block;
+    display: none;
     margin: 10px auto;
     background-color: rgb(214, 72, 98);
     padding: 20px;
