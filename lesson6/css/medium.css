@@ -45,13 +45,20 @@
      .summary {
             position: absolute;
             top: 25px;
-            right: 2rem;
+            left: 2rem;
             background: #ffffff;
             padding: 1.5rem;
             border: 1px solid #000;
             box-shadow: 0 0 30px #111;
             opacity: .8;
+            font-size: 12px;
      }
+     .summary h2{
+        font-size: 15px;
+    }
+    .summary, p {
+        margin: 5px auto;
+    }
     
     .article {
         display: flex;
@@ -75,12 +82,7 @@
         margin-top: 18px;
     }
     
-    .summary h2{
-        font-size: 18px;
-    }
-    .summary, p {
-        margin: 5px auto;
-    }
+  
     
     .footer1 {
         display: block;
