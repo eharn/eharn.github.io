@@ -134,6 +134,7 @@ nav {
 
 .article img {
     max-width: 315px;
+    border: 1px solid black;
 }
 
 .footer1 {
@@ -154,8 +155,8 @@ nav {
     min-width: 240px;
     box-shadow: 0 0 30px #111;
     margin: 10px auto;
-    width: 50px;
-    border: 1px solid white;
+    width: 30px;
+    border: 1px solid black;
 }
 
 .active {
