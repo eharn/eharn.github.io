@@ -1,0 +1,117 @@
+@media only screen and (min-width: 37.5em){ 
+
+
+    header h1 {
+        font-size: 40px;
+        margin-bottom: -7px;
+    }
+      
+    
+        header img {
+            align-self: center;
+            justify-self: end;
+        }
+    
+    header p {
+        margin-top: 5px;
+        font-size: 20px;
+    }
+    
+        .hero {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            max-width: 760px;
+        }
+    
+        .navbar {
+            display: flex;
+        }
+        
+        .navbar li {
+            display: block;
+            flex: 1 1 auto;
+        }
+        
+        .navbar a {
+            text-align: center;
+        }
+        
+        .navbar li:first-child {
+            display: none;
+        }
+
+     .summary {
+            position: absolute;
+            top: 25px;
+            left: 2rem;
+            background: #ffffff;
+            padding: 1.5rem;
+            border: 1px solid #000;
+            box-shadow: 0 0 30px #111;
+            opacity: .8;
+            font-size: 12px;
+     }
+     .summary h2{
+        font-size: 15px;
+    }
+    .summary, p {
+        margin: 5px auto;
+    }
+    
+    .footer1 {
+        display: block;
+        position: relative;
+            max-width: 760px;
+            padding: 1.5rem;
+            border: 1px solid #000;
+            box-shadow: 0 0 30px #111;
+            opacity: .8;
+            font-size: 20px;
+            margin: 10px auto;
+    }
+    
+    .map {
+      width: 200px;
+      position: absolute;
+      top: 10px;
+    }
+    
+    
+    .forecast {
+        display: flex;
+        max-width: 769px;
+        margin: 10px auto;
+        min-width: 340px;
+    }
+    
+    .forecast div {
+        margin: 10px auto;
+        background-color: white;
+        padding: 10px;
+        text-align: center;
+        width: 100px;
+        border: 1px solid black;
+    }
+    
+    div.gallery {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: 1fr minmax(260px, 370px) minmax(260px, 370px) 1fr; 
+        margin: 10px;
+    }
+
+    .gallery picture img {
+        max-width: 365px;
+    }
+    #galimg1, #galimg3, #galimg5, #galimg7, #galimg9 {
+        grid-column: 2/3;
+    }
+
+    #galimg2, #galimg4, #galimg6, #galimg8 {
+        grid-column: 3/4;
+    }
+
+
+    }

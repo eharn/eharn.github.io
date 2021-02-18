@@ -1,0 +1,12 @@
+div.ll picture {
+    display: block;
+}
+
+.gallery img[data-src] {
+    filter: blur(0.2em);
+}
+
+.gallery img[data-src] {
+    filter: blur(0.2em);
+    transition: filter 1.5s;
+}
