@@ -103,8 +103,9 @@
     }
 
     .gallery picture img {
-        max-width: 365px;
+        max-width: 375px;
     }
+
     #galimg1, #galimg3, #galimg5, #galimg7, #galimg9 {
         grid-column: 2/3;
     }

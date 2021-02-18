@@ -202,7 +202,9 @@ div.gallery {
 
 div.gallery img {
     width: 100%;
+    margin: 0;
 }
+
 
 div.gallery p {
     background-color: white;
