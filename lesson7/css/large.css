@@ -21,7 +21,7 @@ div.gallery {
     margin: 10px;
 }
 
-div.gallery figure:hover {
+div.gallery picture:hover {
     box-shadow: 0 0 50px #56545E;
 }
     
