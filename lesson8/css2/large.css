@@ -36,5 +36,8 @@ div.gallery div:hover {
 #galimg3, #galimg6, #galimg9 {
     grid-column: 4/5;
 }
-    
-    }
+
+form {
+    padding: 20px;
+}
+}
