@@ -220,7 +220,8 @@ form {
     padding: 20px;
     background-color: #BFBDC1;
     color: black;
-    max-width: 760px;
+    width: 100%;
+    max-width: 600px;
     margin: 0 auto;
 }
 
@@ -231,8 +232,8 @@ form label, div {
 }
 
 form legend {
-    padding: 10px;
     font-size: 20px;
+    margin: 0 auto;
 }
 form label.top input:required {
     border-left: #56545E solid 6px;
@@ -255,7 +256,7 @@ form label.top input, form label.top select {
     padding: .75rem;
     color: #555;
     width: 100%;
-    max-width: 20rem;
+    max-width: 18rem;
 }
 
 form div.slider {
@@ -267,7 +268,7 @@ form div.textbox {
     margin-bottom: -18px;
 }
 
-main div.thankyou {
+div.thankyou {
     max-width: 760px;
     margin: 0 auto;
     text-align: center;
