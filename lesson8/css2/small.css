@@ -258,11 +258,19 @@ form label.top input, form label.top select {
     max-width: 20rem;
 }
 
-form label.slider {
+form div.slider {
     margin-bottom: -15px;
 
 }
 
-form label.textbox {
+form div.textbox {
     margin-bottom: -18px;
+}
+
+main div.thankyou {
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 20px;
 }
