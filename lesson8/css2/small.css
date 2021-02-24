@@ -216,8 +216,8 @@ div.gallery p {
 }
 
 form {
+    padding-top: 20px;
     display: block;
-    padding: 20px;
     background-color: #BFBDC1;
     color: black;
     width: 100%;
@@ -274,4 +274,15 @@ div.thankyou {
     text-align: center;
     margin-bottom: 40px;
     font-size: 20px;
+}
+
+form input.submitBtn {
+    background-color: #56545E;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    margin-bottom: 10px;
 }
