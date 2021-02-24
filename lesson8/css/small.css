@@ -120,7 +120,7 @@ form label.top input:required:valid {
 
 
 /*----------- FOOTER --------------*/
-footer {
+footert {
     background-color: #ddd;
     padding: .5rem 2%;
     text-align: center;
@@ -134,3 +134,6 @@ footer {
   display: table;
   clear: both;
 }
+
+
+
