@@ -233,7 +233,7 @@ form label, div {
 
 form legend {
     font-size: 20px;
-    margin: 0 auto;
+    
 }
 form label.top input:required {
     border-left: #56545E solid 6px;
