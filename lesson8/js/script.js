@@ -31,3 +31,8 @@ if('IntersectionObserver' in window) {
       loadImages(img);
     });
   }
+
+  function adjustRating(rating) {
+    document.getElementById("ratingnumber").innerHTML = rating;
+  }
+  

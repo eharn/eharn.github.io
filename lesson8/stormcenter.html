@@ -32,6 +32,66 @@
       </ul>
     </nav>
 
+    <main>
+
+    <h2 class="report">Storm Report Center</h2>
+
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Reporter Information</legend>
+                <label class="top">First Name * <input type="text" name="fname" required pattern="[A-Za-z]{5,}"></label>
+                <label class="top">Last Name * <input type="text" name="lname" required pattern="[A-Za-z]{5,}"></label>
+                <label class="top">Email * <input type="email" name="email" required placeholder="youremailhere@gmail.com"></label>
+                <label class="top">Phone * <input type="tel" name="phone" required placeholder="1235551234"></label>
+                <label class="top">Zip Code * <input type="number" name="zip" required placeholder="55555"></label>
+
+            </fieldset>
+            <fieldset>
+                <legend>Storm Information</legend>
+                <label class="top">Storm Date <input type="date" name="sdate"></label>
+                <label class="top">Storm Type <input name="type" list="stormtype" placeholder="Indicate type">
+                    <datalist id="stormtype">
+                        <option value="flashflood"></option>
+                        <option value="hail"></option>
+                        <option value="hurricane"></option>
+                        <option value="thunderstorm"></option>
+                        <option value="tornado"></option>
+                    </datalist>
+                </label>
+                
+                <label class="slider">Strom Severity</label>
+                <label><input id="rating" type="range" name="range" value="5" min="1" max="10" list="tickmarks" 
+                    oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span id="ratingnumber"> 5</span></label>
+
+                    <label class="top" >Storm Region
+                        <select name="region">
+                            <option value="">Select Region &#9662;</option>
+                        <option value="Preston">Preston</option>
+                        <option value="Soda Springs">Soda Springs</option>
+                        <option value="Fish Haven">Fish Haven</option>
+                    </select>
+                </label>
+
+                <div class="level">Danger Level</div>
+                <label class="level"><input type="radio" name="danger" value="yes"> Yes</label>
+                <label class="level"><input type="radio" name="danger" value="yes"> Maybe</label>
+                <label class="level"><input type="radio" name="danger" value="yes"> No</label>
+                
+                <label class="textbox">Additional Information</label>
+                <label name="additional"><textarea name="additional" rows="4" cols="50"></textarea></label>
+
+
+            </fieldset>
+
+            <input type="submit" value="Share My Weather" class="submitBtn">
+        </form>
+
+
+
+
+    </main>
+
+    </body>
     
 
     <footer>

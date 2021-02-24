@@ -109,7 +109,7 @@ form input.submitBtn {
     max-width: 20rem;
 }
 
-form lable.top input:required {
+form label.top input:required {
     border-left: red solid 6px;
 }
 
@@ -120,7 +120,7 @@ form label.top input:required:valid {
 
 
 /*----------- FOOTER --------------*/
-footert {
+footer {
     background-color: #ddd;
     padding: .5rem 2%;
     text-align: center;
