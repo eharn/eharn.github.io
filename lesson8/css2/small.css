@@ -292,3 +292,7 @@ form label textarea {
     width: 330px;
     height: 100px;
 }
+
+form label.level {
+    font-size: 18px;
+}
