@@ -3,6 +3,7 @@
 body {
     background-color: #FFF8D5;
     font-family: Quicksand, Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 header{
@@ -289,7 +290,7 @@ form input.submitBtn {
 }
 
 form label textarea {
-    width: 330px;
+    width: 90%;
     height: 100px;
 }
 
