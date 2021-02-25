@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Storm Center WDD 230: Web Frontend Development by Ellie Lofgreen and Brigham Young University-Idaho"/>
+      content="Storm Center WDD 230: Web Frontend Development by Ellie Lofgreen and Brigham Young University-Idaho"
+    />
     <title>Storm Center</title>
-    <link rel="stylesheet" href="css/normalize.css"/>
-    <link rel="stylesheet" href="css2/small.css"/>
-    <link rel="stylesheet" href="css2/medium.css"/>
-    <link rel="stylesheet" href="css2/large.css"/>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css2/small.css" />
+    <link rel="stylesheet" href="css2/medium.css" />
+    <link rel="stylesheet" href="css2/large.css" />
     <link rel="shortcut icon" href="images/favicon.ico" />
   </head>
   <body>
@@ -31,64 +32,94 @@
       </ul>
     </nav>
 
-
     <h2 class="report">Storm Report Center</h2>
     <form method="get" action="thanks.html">
-    <fieldset>
-      <legend>Reporter Information</legend>
-      <label class="top">First Name * <input type="text" name="fname" required pattern="[A-Za-z]{5,}"></label>
-      <label class="top">Last Name * <input type="text" name="lname" required pattern="[A-Za-z]{5,}"></label>
-      <label class="top">Email * <input type="email" name="email" required placeholder="youremailhere@gmail.com"></label>
-      <label class="top">Phone * <input type="tel" name="phone" placeholder="1235551234"></label>
-      <label class="top">Zip Code * <input type="number" name="zip" required placeholder="55555"></label>
+      <fieldset>
+        <legend>Reporter Information</legend>
+        <label class="top"
+          >First Name *
+          <input type="text" name="fname" required pattern="[A-Za-z]{5,}"
+        /></label>
+        <label class="top"
+          >Last Name *
+          <input type="text" name="lname" required pattern="[A-Za-z]{5,}"
+        /></label>
+        <label class="top"
+          >Email *
+          <input
+            type="email"
+            name="email"
+            required
+            placeholder="youremailhere@gmail.com"
+        /></label>
+        <label class="top"
+          >Phone * <input type="tel" name="phone" placeholder="1235551234"
+        /></label>
+        <label class="top"
+          >Zip Code *
+          <input type="number" name="zip" required placeholder="55555"
+        /></label>
+      </fieldset>
 
-  </fieldset>
-
-
-  <fieldset class="storm">
-    <legend>Storm Information</legend>
-    <label class="top">Storm Date <input type="date" name="sdate"></label>
-    <label class="top">Storm Type <input name="type" list="stormtype" placeholder="Indicate type">
-        <datalist id="stormtype">
+      <fieldset class="storm">
+        <legend>Storm Information</legend>
+        <label class="top">Storm Date <input type="date" name="sdate" /></label>
+        <label class="top"
+          >Storm Type
+          <input name="type" list="stormtype" placeholder="Indicate type" />
+          <datalist id="stormtype">
             <option value="Flashflood"></option>
             <option value="Hail"></option>
             <option value="Hurricane"></option>
             <option value="Thunderstorm"></option>
             <option value="Tornado"></option>
-        </datalist>
-    </label>
-    
-    <div class="slider">Strom Severity (1-10)</div>
-    <label><input id="rating" type="range" name="range" value="5" min="1" max="10" 
-        oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"><span id="ratingnumber">5</span></label>
+          </datalist>
+        </label>
 
-        <label class="top">Storm Region
-            <select name="region">
-                <option value="">Select Region &#9662;</option>
+        <div class="slider">Strom Severity (1-10)</div>
+        <label
+          ><input
+            id="rating"
+            type="range"
+            name="range"
+            value="5"
+            min="1"
+            max="10"
+            oninput="adjustRating(this.value)"
+            onchange="adjustRating(this.value)"
+          /><span id="ratingnumber">5</span></label
+        >
+
+        <label class="top"
+          >Storm Region
+          <select name="region">
+            <option value="">Select Region &#9662;</option>
             <option value="Preston">Preston</option>
             <option value="Soda Springs">Soda Springs</option>
             <option value="Fish Haven">Fish Haven</option>
-        </select>
-    </label>
+          </select>
+        </label>
 
-    <div>Danger Level</div>
-    <label class="level"><input type="radio" name="danger" value="yes"> Yes</label>
-    <label class="level"><input type="radio" name="danger" value="yes"> Maybe</label>
-    <label class="level"><input type="radio" name="danger" value="yes"> No</label>
-  </fieldset>
+        <div>Danger Level</div>
+        <label class="level"
+          ><input type="radio" name="danger" value="yes" /> Yes</label
+        >
+        <label class="level"
+          ><input type="radio" name="danger" value="yes" /> Maybe</label
+        >
+        <label class="level"
+          ><input type="radio" name="danger" value="yes" /> No</label
+        >
+      </fieldset>
 
-  <fieldset class="textbox">
-    <legend>Additional Information</legend>
-  <label><textarea name="additional"></textarea></label>
+      <fieldset class="textbox">
+        <legend>Additional Information</legend>
+        <label><textarea name="additional"></textarea></label>
+      </fieldset>
 
-</fieldset>
+      <input type="submit" value="Share My Weather" class="submitBtn" />
+    </form>
 
-     
-<input type="submit" value="Share My Weather" class="submitBtn">
-</form>
-
-
-  
     <footer>
       <div class="footer2">
         <p>
@@ -98,7 +129,6 @@
         <p><span id="currentdate"></span></p>
       </div>
     </footer>
-
 
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/script.js" defer></script>
