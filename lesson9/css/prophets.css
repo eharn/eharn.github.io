@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+body {
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(7, 77, 96);
+    min-width: 240px;
+}
+
+main {
+    background-color: rgb(211, 218, 221);
+    padding: 10px;
+    box-shadow: 1px 0px 12px 0px darkgray;
+    min-width: 240px;
+}
+
+section {
+    color: white;
+    background-color: rgb(7, 77, 96);
+    display: block;
+    min-width: 220px;
+    margin: 5px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+h2 {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+p, p2{
+    margin: 0;
+    font-size: 12px;
+    display: block;
+    font-family: montserrat, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100px;
+    margin: 10px;
+    box-shadow: 1px 0px 12px 0px lightgrey;
+}
+
+
+
+@media only screen and (min-width: 37.5em){ 
+
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+
+@media only screen and (min-width: 60em) { 
+
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+}
