@@ -1,0 +1,43 @@
+@media only screen and (min-width: 60em) {
+    header h1{
+        font-size: 40px;
+    }
+    
+.map {
+    width: 400px;
+}
+    
+    .summary {
+        font-size: 15px;
+ }
+ .summary h2{
+    font-size: 20px;
+}
+
+div.gallery {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr minmax(280px, 370px) minmax(280px, 370px) minmax(280px, 370px) 1fr; 
+    margin: 10px;
+}
+
+div.gallery div:hover {
+    box-shadow: 0 0 50px #56545E;
+}
+    
+#galimg1, #galimg4, #galimg7 {
+    grid-column: 2/3;
+}
+
+#galimg2, #galimg5, #galimg8 {
+    grid-column: 3/4;
+}
+ 
+#galimg3, #galimg6, #galimg9 {
+    grid-column: 4/5;
+}
+
+form {
+    padding: 20px;
+}
+}
