@@ -344,6 +344,7 @@ div.areas section, p2, p3, p4 {
     margin: 10px auto;
     min-width: 150px;
     border: 2px solid black;
+    width: 90%;
 }
 
 .bulletin h3 {

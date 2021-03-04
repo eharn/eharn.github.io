@@ -1,4 +1,4 @@
-@media only screen and (min-width: 40em){ 
+@media only screen and (min-width: 36em){ 
 
 
     header h1 {
@@ -173,8 +173,10 @@ div.areas section {
 }
 
 .bulletin p {
-    font-size: 12px;
+    font-size: 10px;
     text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .shoes {
