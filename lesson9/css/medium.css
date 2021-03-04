@@ -152,4 +152,48 @@ div.areas section {
     margin-bottom: 10px;
 }
 
+.bulletin {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 5fr;
+    grid-gap: 5px;
+}
+
+.bulletin .cohead {
+    grid-row: 1;
+    grid-column: 1/4;
+}
+
+.bulletin h3 {
+    font-size: 18px;
+}
+
+.golden img {
+    width: 60%;
+}
+
+.bulletin p {
+    font-size: 12px;
+    text-align: left;
+}
+
+.shoes {
+    width: 75%;
+}
+
+.shoes, .cans {
+    display: block;
+    margin: 10px auto;
+    border: 4px solid black;
+    width: 75%;
+}
+
+.golden p {
+    text-align: center;
+    margin: 10px;
+}
+
+
+
+
 }
