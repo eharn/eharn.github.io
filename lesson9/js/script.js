@@ -78,10 +78,6 @@ fetch(requestURL)
               img.setAttribute('alt', 'wheat field');
             }
 
-            
-          
-          
-    
     areas.appendChild(h3);
     areas.appendChild(p);
     areas.appendChild(p2);

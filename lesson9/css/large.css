@@ -78,5 +78,8 @@ div.areas {
     margin-bottom: 10px;
 }
 
+.areas section:nth-child(3) img {
+    max-width: 190px;
+}
 
 }
