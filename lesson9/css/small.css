@@ -153,12 +153,11 @@ main div.article img {
     background-color: white;
     color: black;
     text-align: left;
-    padding: 10px;
     font-size: 12px;
     margin-top: 20px;
     margin-bottom: 20px;
     border: 1px solid #BFBDC1;
-    width: 100%;
+    padding-right: 0;
 }
 
 .map {
@@ -377,4 +376,16 @@ div.areas section, p2, p3, p4 {
     margin: 40px auto;
     box-shadow: 0 0 30px #111;
     width: 200px;
+}
+
+
+
+
+ img[data-src] {
+    filter: blur(0.2em);
+}
+
+ img[data-src] {
+    filter: blur(0.2em);
+    transition: filter 1.5s;
 }

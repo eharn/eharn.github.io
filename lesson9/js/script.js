@@ -1,42 +1,4 @@
-const menunav = document.querySelector('.menu');
-const mainnav = document.querySelector('.navbar')
-
-menunav.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
-
-let imagesToLoad = document.querySelectorAll('img[data-src]');
-const loadOptions = {
-    threshold: 1,
-    rootMargin: "0px 0px 50px 0px"
-};
-
-const loadImages = (image) => {
-    image.setAttribute('src', image.getAttribute('data-src'));
-    image.onload = () => {image.removeAttribute('data-src');};
-};
-
-if('IntersectionObserver' in window) {
-    const observer = new IntersectionObserver((items, observer) => {
-      items.forEach((item) => {
-        if(item.isIntersecting) {
-          loadImages(item.target);
-          observer.unobserve(item.target);
-        }
-      });
-    });
-    imagesToLoad.forEach((img) => {
-      observer.observe(img);
-    });
-  } else {
-    imagesToLoad.forEach((img) => {
-      loadImages(img);
-    });
-  }
-
-  function adjustRating(rating) {
-    document.getElementById("ratingnumber").innerHTML = rating;
-  }
-  
-  const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
+const requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 
 fetch(requestURL)
   .then(function (response) {
@@ -91,3 +53,45 @@ fetch(requestURL)
   }
 });
 
+
+
+
+const menunav = document.querySelector('.menu');
+const mainnav = document.querySelector('.navbar')
+
+menunav.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
+
+let imagesToLoad = document.querySelectorAll('img[data-src]');
+const loadOptions = {
+    threshold: 1,
+    rootMargin: "0px 0px 50px 0px"
+};
+
+const loadImages = (image) => {
+    image.setAttribute('src', image.getAttribute('data-src'));
+    image.onload = () => {image.removeAttribute('data-src');};
+};
+
+if('IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((items, observer) => {
+      items.forEach((item) => {
+        if(item.isIntersecting) {
+          loadImages(item.target);
+          observer.unobserve(item.target);
+        }
+      });
+    });
+    imagesToLoad.forEach((img) => {
+      observer.observe(img);
+    });
+  } else {
+    imagesToLoad.forEach((img) => {
+      loadImages(img);
+    });
+  }
+
+  function adjustRating(rating) {
+    document.getElementById("ratingnumber").innerHTML = rating;
+  }
+  
+  

@@ -152,22 +152,10 @@ main div.article img {
     background-color: white;
     color: black;
     text-align: left;
-    padding: 10px;
-    height: 300px;
     font-size: 12px;
 }
 
-.map {
-    display: block;
-    top: 25px;
-    right: 50px;
-    opacity: .8;
-    min-width: 240px;
-    box-shadow: 0 0 30px #111;
-    margin-top: 20px;
-    width: 30px;
-    border: 1px solid black;
-}
+
 
 .active {
     background-color: black;
