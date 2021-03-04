@@ -330,3 +330,42 @@ div.areas section, p2, p3, p4 {
     margin: 10px;
     box-shadow: 0 0 30px #111;
 }
+
+.bulletin {
+    display: block;
+    background-color: #56545E;
+    color: white;
+    max-width: 840px;
+    margin: 0px auto;
+}
+
+.bulletin div {
+    background-color: white;
+    color: black;
+    margin: 10px auto;
+    min-width: 200px;
+    border: 4px solid black;
+}
+
+.bulletin h3 {
+    text-align: center;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.bulletin p {
+    text-align: center;
+}
+
+
+.cohead {
+    padding: 10px;
+    border: 2px solid white;
+}
+
+.golden img {
+    border: 4px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
