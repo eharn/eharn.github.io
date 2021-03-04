@@ -26,18 +26,21 @@ fetch(requestURL)
     p4.textContent = 'Average Rain Fall: ' + towns[i].averageRainfall;
            
             if(towns[i].name === "Fish Haven"){
-              img.setAttribute('src', 'images/sunset.jpg');
+              img.setAttribute('src', 'images/sunsetL.jpg');
               img.setAttribute('alt', 'sunset clouds');
+              img.setAttribute('data-src', 'images/sunset.jpg');
             }
 
             if (towns[i].name === "Preston") {
-              img.setAttribute('src', 'images/twowayroad.jpg');
+              img.setAttribute('src', 'images/twowayroadL.jpg');
               img.setAttribute('alt', 'roadway');
+              img.setAttribute('data-src', 'images/twowayroad.jpg');
             }
 
             if (towns[i].name === "Soda Springs") {
-              img.setAttribute('src', "images/wheat.jpg");
+              img.setAttribute('src', "images/wheatL.jpg");
               img.setAttribute('alt', 'wheat field');
+              img.setAttribute('data-src', 'images/wheat.jpg');
             }
 
     areas.appendChild(h3);
@@ -51,6 +54,7 @@ fetch(requestURL)
     document.querySelector('div.areas').appendChild(areas);
     }
   }
+  startLazyLoad();
 });
 
 
@@ -61,6 +65,8 @@ const mainnav = document.querySelector('.navbar')
 
 menunav.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
 
+
+function startLazyLoad(){
 let imagesToLoad = document.querySelectorAll('img[data-src]');
 const loadOptions = {
     threshold: 1,
@@ -89,6 +95,8 @@ if('IntersectionObserver' in window) {
       loadImages(img);
     });
   }
+}
+
 
   function adjustRating(rating) {
     document.getElementById("ratingnumber").innerHTML = rating;
