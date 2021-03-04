@@ -63,17 +63,17 @@ fetch(requestURL)
     p3.textContent = 'Population: ' + towns[i].currentPopulation;
     p4.textContent = 'Average Rain Fall: ' + towns[i].averageRainfall;
            
-            if(i == 1){
+            if(towns[i].name === "Fish Haven"){
               img.setAttribute('src', 'images/sunset.jpg');
               img.setAttribute('alt', 'sunset clouds');
             }
 
-            if (i == 5) {
+            if (towns[i].name === "Preston") {
               img.setAttribute('src', 'images/twowayroad.jpg');
               img.setAttribute('alt', 'roadway');
             }
 
-            if (i == 6) {
+            if (towns[i].name === "Soda Springs") {
               img.setAttribute('src', "images/wheat.jpg");
               img.setAttribute('alt', 'wheat field');
             }
