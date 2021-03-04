@@ -146,7 +146,10 @@ div.areas section {
     font-size: 40px;
 }
 
-
-
+.areas p {
+    margin: 0px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
 
 }
