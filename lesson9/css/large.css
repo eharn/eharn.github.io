@@ -78,8 +78,26 @@ div.areas {
     margin-bottom: 10px;
 }
 
+.areas section:nth-child(-n + 2) img {
+    margin-top: 20px;
+}
+
 .areas section:nth-child(3) img {
-    max-width: 190px;
+    width: 220px;
+    margin-top: 5px;
+}
+
+.areas section:nth-child(3) {
+    width: 190px;
+    margin-top: 5px;
+}
+
+.areas section:nth-child(-n + 2) {
+    margin-top: 5px;
+}
+
+.areas img {
+    width: 190px;
 }
 
 }
