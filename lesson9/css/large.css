@@ -68,6 +68,12 @@ div.areas {
     max-width: 250px;
 }
 
+.areas p {
+    padding: 2px;
+    font-size: 10px;
+
+}
+
 .areas section p4 {
     margin-bottom: 10px;
 }
