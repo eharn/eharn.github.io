@@ -101,7 +101,7 @@ nav {
 
 .hero {
     position: relative;
-    width: 80%;
+    width: 100%;
     margin: 10px auto;
 }
 .summary {
@@ -154,20 +154,19 @@ main div.article img {
     color: black;
     text-align: left;
     padding: 10px;
-    height: 300px;
     font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #BFBDC1;
+    width: 100%;
 }
 
 .map {
-    display: block;
-    top: 25px;
-    right: 50px;
+    align-content: center;
     opacity: .8;
-    min-width: 240px;
     box-shadow: 0 0 30px #111;
     margin-top: 20px;
-    width: 30px;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 .active {
@@ -296,4 +295,38 @@ form label textarea {
 
 form label.level {
     font-size: 18px;
+}
+
+div.areas section, p2, p3, p4 {
+    display: block;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.areas section {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    min-width: 220px;
+}
+
+.areas h3 {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.areas p {
+    margin: 0px;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
+
+.areas p2, p3, p4 {
+    font-size: 12px;
+}
+
+.areas img {
+    margin: 10px;
+    box-shadow: 0 0 30px #111;
 }

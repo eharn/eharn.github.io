@@ -49,7 +49,7 @@ fetch(requestURL)
     
       if (i == 1 || i == 5 || i == 6){
     let areas = document.createElement('section');
-    let h2 = document.createElement('h2');
+    let h3 = document.createElement('h3');
     let p = document.createElement('p');
     let p2 = document.createElement('p2');
     let p3 = document.createElement('p3');
@@ -57,7 +57,7 @@ fetch(requestURL)
     let img = document.createElement('img');
     
 
-    h2.textContent = towns[i].name;
+    h3.textContent = towns[i].name;
     p.textContent = towns[i].motto;
     p2.textContent = 'Year Founded: ' + towns[i].yearFounded;
     p3.textContent = 'Population: ' + towns[i].currentPopulation;
@@ -82,7 +82,7 @@ fetch(requestURL)
           
           
     
-    areas.appendChild(h2);
+    areas.appendChild(h3);
     areas.appendChild(p);
     areas.appendChild(p2);
     areas.appendChild(p3);
