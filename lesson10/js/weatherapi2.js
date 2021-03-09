@@ -21,7 +21,7 @@ fetch(apiURL)
        
   for (var i = 0 ; i < list.length; i++){
         if (list[i].dt_txt.includes("18:00:00")) {
-            document.getElementById(days[counter]).textContent = Math.round(list[i].main.temp);
+            document.getElementById(days[counter]).textContent = Math.round(list[i].main.temp) + ' °F';
             console.log(days[counter]);
             counter++;
         }
