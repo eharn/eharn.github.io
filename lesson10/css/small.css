@@ -1,0 +1,393 @@
+
+
+body {
+    background-color: #FFF8D5;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: #FFFFFF;
+    font-size: 17px;  
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    min-width: 330px;
+    margin-top: 30px;
+    box-shadow: 0 0 30px #111;
+}
+
+header p {
+    margin-top: -20px;
+    grid-column: 2/4;
+    padding-bottom: 10px;
+}
+
+header img {
+    grid-column: 2/3;
+    width: 150px;
+    margin-top: 60px;
+    align-content: end;
+}
+
+header h1 {
+    grid-column: 3/4;
+    justify-self: start;
+    align-self: center;
+}
+
+
+nav {
+    margin: 0 auto;
+    max-width: 760px;
+    background-color: #56545E;
+}
+
+.navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li:first-child {
+    display: block;
+}
+
+.navbar li {
+    display: none;
+}
+
+.navbar a {
+    display: block;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.navbar a:hover {
+    color:  #000000;
+    background-color: #BFBDC1;
+}
+
+.responsive li {
+    display: block;
+}
+
+.name, h2 {
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.footer2 {
+    display: block;
+    font-family: Quicksand, Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+    color: #000000;
+    padding: 10px;
+    max-width: 760px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 30px #111;
+}
+
+ main picture.heroimg img {
+    width: 100%;
+    margin: 0px auto;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px;
+}
+.summary {
+    background: #ffffff;
+    border: 1px solid #000;
+    margin: 0px auto;
+    min-width: 150px;
+}
+
+.fiveday {
+    max-width: 760px;
+    background: white;
+    margin: 20px auto;
+}
+
+.fiveday {
+    background: #56545E;
+    color: white;
+}
+
+main div.article {
+    display: block;
+    background: #56545E;
+    padding: 1.5rem;
+    border: 1px solid #000;
+    font-size: 12px;
+    max-width: 760px;
+    margin: 0 auto;
+    color: white;
+}
+
+.article h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+main div.article img {
+    max-width: 315px;
+    border: 1px solid black;
+    box-shadow: 0 0 30px #111;
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+.footer1 {
+    display: block;
+    background-color: white;
+    color: black;
+    text-align: left;
+    font-size: 8px;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #BFBDC1;
+    padding-right: 0;
+    max-width: 310px;
+}
+
+.map {
+    align-content: center;
+    opacity: .8;
+    box-shadow: 0 0 30px #111;
+    margin-top: 20px;
+}
+
+.active {
+    background-color: black;
+}
+
+#fridaybanner {
+    display: none;
+    margin: 10px auto;
+    background-color: rgb(214, 72, 98);
+    padding: 20px;
+    max-width: 760px;
+    color: white;
+    text-align: center;
+}
+
+.forecast {
+    display: block;
+}
+
+.forecast div {
+    margin: 10px auto;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    border: 1px solid black;
+}
+
+div.gallery {
+    display: block;  
+}
+
+div.gallery img {
+    width: 100%;
+    margin: 0;
+}
+
+
+div.gallery p {
+    background-color: white;
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    margin: 0;
+}
+
+form {
+    padding-top: 20px;
+    display: block;
+    background-color: #BFBDC1;
+    color: black;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form fieldset {
+    margin: 10px;
+}
+
+form label, div {
+    display: block;
+    padding: 10px;
+    font-size: .9rem;
+}
+
+form legend {
+    font-size: 20px;
+}
+
+form label.top input:required {
+    border-left: #56545E solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
+h2.report {
+    font-size: 40px;
+}
+
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #56545E;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 18rem;
+}
+
+form div.slider {
+    margin-bottom: -15px;
+
+}
+
+
+div.thankyou {
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+form input.submitBtn {
+    background-color: #56545E;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    margin-bottom: 10px;
+}
+
+form label textarea {
+    width: 90%;
+    height: 100px;
+}
+
+form label.level {
+    font-size: 18px;
+}
+
+div.areas section, p2, p3, p4 {
+    display: block;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.areas section {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    min-width: 220px;
+}
+
+.areas h3 {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.areas p {
+    margin: 0px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.areas p2, p3, p4 {
+    font-size: 12px;
+}
+
+.areas img {
+    margin: 10px;
+    box-shadow: 0 0 30px #111;
+    
+}
+
+.bulletin {
+    display: block;
+    background-color: #56545E;
+    color: white;
+    max-width: 840px;
+    margin: 0px auto;
+}
+
+.bulletin div {
+    background-color: white;
+    color: black;
+    margin: 10px auto;
+    min-width: 150px;
+    border: 2px solid black;
+    width: 90%;
+}
+
+.bulletin h3 {
+    text-align: center;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.bulletin p {
+    text-align: center;
+}
+
+
+.cohead {
+    padding: 10px;
+    border: 2px solid white;
+}
+
+.golden img {
+    box-shadow: 0 0 30px #111;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.shoes, .cans {
+    display: block;
+    margin: 40px auto;
+    box-shadow: 0 0 30px #111;
+    width: 200px;
+}
+
+
+
+
+ img[data-src] {
+    filter: blur(0.2em);
+}
+
+ img[data-src] {
+    filter: blur(0.2em);
+    transition: filter 1.5s;
+}

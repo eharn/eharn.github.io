@@ -1,0 +1,103 @@
+@media only screen and (min-width: 60em) {
+    header h1{
+        font-size: 40px;
+    }
+    
+    .summary {
+        font-size: 15px;
+ }
+ .summary h2{
+    font-size: 20px;
+}
+
+div.gallery {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr minmax(280px, 370px) minmax(280px, 370px) minmax(280px, 370px) 1fr; 
+    margin: 10px;
+}
+
+div.gallery div:hover {
+    box-shadow: 0 0 50px #56545E;
+}
+    
+#galimg1, #galimg4, #galimg7 {
+    grid-column: 2/3;
+}
+
+#galimg2, #galimg5, #galimg8 {
+    grid-column: 3/4;
+}
+ 
+#galimg3, #galimg6, #galimg9 {
+    grid-column: 4/5;
+}
+
+form {
+    padding: 20px;
+}
+
+div.areas section, p2, p3, p4 {
+    display: block;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.areas section {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    min-width: 220px;
+}
+
+.areas section h3 {
+    font-size: 25px;
+    margin: 0px;
+}
+
+div.areas {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.areas section {
+    max-width: 250px;
+}
+
+.areas p {
+    padding: 2px;
+    font-size: 16px;
+
+}
+
+.areas section p4 {
+    margin-bottom: 10px;
+}
+
+.areas section:nth-child(-n + 2) img {
+    margin-top: 20px;
+}
+
+.areas section:nth-child(3) img {
+    width: 220px;
+    margin-top: 5px;
+}
+
+.areas section:nth-child(3) {
+    width: 190px;
+    margin-top: 5px;
+}
+
+.areas section:nth-child(-n + 2) {
+    margin-top: 5px;
+}
+
+.areas img {
+    width: 190px;
+}
+
+}
