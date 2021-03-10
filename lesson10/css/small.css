@@ -116,11 +116,7 @@ nav {
 
 .fiveday {
     max-width: 760px;
-    background: white;
     margin: 20px auto;
-}
-
-.fiveday {
     background: #56545E;
     color: white;
 }
@@ -192,11 +188,16 @@ main div.article img {
 
 .forecast div {
     margin: 10px auto;
-    background-color: white;
+    background-color:#BFBDC1;
     padding: 10px;
     text-align: center;
-    width: 300px;
-    border: 1px solid black;
+    width: 75%;
+    border: 2px dashed black;
+    color: black;
+}
+
+.forecast img {
+    margin-bottom: 10px;
 }
 
 div.gallery {
