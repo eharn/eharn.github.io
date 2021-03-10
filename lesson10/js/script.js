@@ -51,7 +51,7 @@ fetch(requestURL)
     areas.appendChild(img);
     areas.appendChild(img);
     areas.appendChild(img);
-    document.querySelector('div.areas').appendChild(areas);
+   //document.querySelector('div.areas').appendChild(areas);
     }
   }
   startLazyLoad();
