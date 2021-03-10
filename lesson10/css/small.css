@@ -189,11 +189,11 @@ main div.article img {
 .forecast div {
     margin: 10px auto;
     background-color:#BFBDC1;
-    padding: 10px;
     text-align: center;
     width: 75%;
     border: 2px dashed black;
     color: black;
+
 }
 
 .forecast img {
