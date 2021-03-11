@@ -4,12 +4,12 @@ fetch(apiURL)
   .then((jsObject) => {
     console.log(jsObject);
     document.getElementById('humidity').textContent = jsObject.main.humidity + '%';
-    document.getElementById('temp_max').textContent = Math.round(jsObject.main.temp_max) + '°F';
+    document.getElementById('temp').textContent = Math.round(jsObject.main.temp) + '°F';
     document.getElementById('speed').textContent = Math.round(jsObject.wind.speed) + 'mph';
     const desc = jsObject.weather[0].description; 
     document.getElementById('currently').textContent = desc;
 
-    var t = Math.round(jsObject.main.temp_max);
+    var t = Math.round(jsObject.main.temp);
     var s = Math.round(jsObject.wind.speed);
     var f;
     
