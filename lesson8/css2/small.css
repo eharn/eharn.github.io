@@ -297,3 +297,7 @@ form label textarea {
 form label.level {
     font-size: 18px;
 }
+
+.textbox {
+    width: 50%;
+}
