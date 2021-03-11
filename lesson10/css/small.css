@@ -191,7 +191,8 @@ main div.article img {
     background-color:#BFBDC1;
     text-align: center;
     width: 75%;
-    border: 2px dashed black;
+    border: 2px solid white;
+    box-shadow: 0 0 10px #111;
     color: black;
 
 }
