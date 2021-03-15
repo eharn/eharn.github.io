@@ -35,12 +35,15 @@
       </ul>
     </nav>
     <main>
-      <img
-        class="hero"
-        src="images/banner-mountianL.jpg"
-        data-src="images/banner-mountian.jpg"
-        alt="Mountain Landscape"
-      />
+      <h2 class="name">Welcome! Come get the scoop</h2>
+      <div class="hero" id="heroindex">
+      <picture class="heroimg">
+        <source media="(max-width: 400px)" srcset="images/bannersm.jpg">
+        <source media="(max-width: 699px)" srcset="images/bannermed.jpg">
+        <source media="(min-width: 700px)" srcset="images/bannerlrg.jpg">
+        <img src="images/bannerlrg.jpg" alt="mountian landscape">
+    </picture>
+  </div>
 
       <h2>Get to know our Southeastern Idaho Towns</h2>
 
