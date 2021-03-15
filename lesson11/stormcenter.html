@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Storm Center WDD 230: Web Frontend Development by Ellie Lofgreen and Brigham Young University-Idaho"
+    />
+    <title>Storm Center</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.jpg" alt="The Weather Scoop logo" />
+      <h1>The <br />Weather <br />Scoop</h1>
+      <p>get your single or double look here</p>
+    </header>
+
+    <nav>
+      <ul class="navbar">
+        <li><a class="menu" href="#">&#9776;Menu</a></li>
+        <li><a href="index.html">Home Page</a></li>
+        <li><a href="preston.html">Preston</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li class="active"><a href="#">Storm Center</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <h2 class="report">Storm Report Center</h2>
+    <form method="get" action="thanks.html">
+      <fieldset>
+        <legend>Reporter Information</legend>
+        <label class="top"
+          >First Name *
+          <input type="text" name="fname" required pattern="[A-Za-z]{5,}"
+        /></label>
+        <label class="top"
+          >Last Name *
+          <input type="text" name="lname" required pattern="[A-Za-z]{5,}"
+        /></label>
+        <label class="top"
+          >Email *
+          <input
+            type="email"
+            name="email"
+            required
+            placeholder="youremailhere@gmail.com"
+        /></label>
+        <label class="top"
+          >Phone * <input type="tel" name="phone" placeholder="1235551234"
+        /></label>
+        <label class="top"
+          >Zip Code *
+          <input type="number" name="zip" required placeholder="55555"
+        /></label>
+      </fieldset>
+
+      <fieldset class="storm">
+        <legend>Storm Information</legend>
+        <label class="top">Storm Date <input type="date" name="sdate" /></label>
+        <label class="top"
+          >Storm Type
+          <input name="type" list="stormtype" placeholder="Indicate type" />
+          <datalist id="stormtype">
+            <option value="Flashflood"></option>
+            <option value="Hail"></option>
+            <option value="Hurricane"></option>
+            <option value="Thunderstorm"></option>
+            <option value="Tornado"></option>
+          </datalist>
+        </label>
+
+        <div class="slider">Strom Severity (1-10)</div>
+        <label
+          ><input
+            id="rating"
+            type="range"
+            name="range"
+            value="5"
+            min="1"
+            max="10"
+            oninput="adjustRating(this.value)"
+            onchange="adjustRating(this.value)"
+          /><span id="ratingnumber">5</span></label
+>
+
+        <label class="top"
+          >Storm Region
+          <select name="region">
+            <option value="">Select Region &#9662;</option>
+            <option value="Preston">Preston</option>
+            <option value="Soda Springs">Soda Springs</option>
+            <option value="Fish Haven">Fish Haven</option>
+          </select>
+        </label>
+
+        <div>Danger Level</div>
+        <label class="level"
+          ><input type="radio" name="danger" value="yes" /> Yes</label
+        >
+        <label class="level"
+          ><input type="radio" name="danger" value="yes" /> Maybe</label
+        >
+        <label class="level"
+          ><input type="radio" name="danger" value="yes" /> No</label>
+      </fieldset>
+
+      <fieldset class="textbox">
+        <legend>Additional Information</legend>
+        <label for="comments">Type your thoughts:</label>
+        <textarea id="comments" name="additional" rows="5" cols="35"></textarea>
+      </fieldset>
+
+      <input type="submit" value="Share My Weather" class="submitBtn" />
+    </form>
+
+    <footer>
+      <div class="footer2">
+        <p>
+          &copy;The Weather Scoop | Eleanor Lofgreen | Idaho |
+          <a href="https://www.byui.edu/online">BYUI Online Learning | </a>
+        <a href="/index.html">Portal</a>
+        </p>
+        <p><span id="currentdate"></span></p>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/frontload.js"></script>
+  </body>
+</html>
