@@ -114,6 +114,10 @@ nav {
     min-width: 150px;
 }
 
+.summary p {
+    padding: 5px;
+}
+
 .fiveday {
     max-width: 760px;
     margin: 20px auto;
