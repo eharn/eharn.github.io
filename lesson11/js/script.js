@@ -51,11 +51,12 @@ fetch(requestURL)
     areas.appendChild(img);
     areas.appendChild(img);
     areas.appendChild(img);
-  
+    document.querySelector('div.areas').appendChild(areas);
     }
   }
   startLazyLoad();
 });
+
 
 
 
@@ -101,6 +102,5 @@ if('IntersectionObserver' in window) {
   function adjustRating(rating) {
     document.getElementById("ratingnumber").innerHTML = rating;
   }
-  
   
   
