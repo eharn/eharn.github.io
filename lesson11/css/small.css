@@ -201,6 +201,10 @@ main div.article img {
 
 }
 
+.forecast p {
+    padding: 15px;
+}
+
 .forecast img {
     margin-bottom: 10px;
 }
