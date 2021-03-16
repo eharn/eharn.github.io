@@ -128,17 +128,22 @@ nav {
 main div.article {
     display: block;
     background: #56545E;
-    padding: 1.5rem;
+    padding: 1 rem;
     border: 1px solid #000;
-    font-size: 12px;
+    font-size: 16px;
     max-width: 760px;
-    margin: 0 auto;
+    margin: 0px auto;
     color: white;
+    text-align: center;
 }
 
 .article h3 {
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
+}
+
+.article p {
+    margin-bottom: 20px;
 }
 
 main div.article img {
