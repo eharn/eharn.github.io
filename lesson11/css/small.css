@@ -169,6 +169,10 @@ main div.article img {
 
 }
 
+.footinfo p {
+    padding: 8px;
+}
+
 .map {
     align-content: center;
     opacity: .8;
