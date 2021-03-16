@@ -319,7 +319,7 @@ form label.level {
     font-size: 18px;
 }
 
-div.areas section p2 p3 p4 {
+div.areas section p2, p3, p4 {
     display: block;
     background-color: white;
     color: black;
@@ -327,8 +327,9 @@ div.areas section p2 p3 p4 {
 }
 
 .areas section {
+    background-color: white;
     padding: 20px;
-    margin: 10px;
+    margin: 10px auto;
     border: 1px solid black;
     min-width: 220px;
 }
@@ -336,22 +337,26 @@ div.areas section p2 p3 p4 {
 .areas h3 {
     font-size: 20px;
     margin: 0px;
+    text-align: center;
 }
 
 .areas p {
     margin: 0px;
     font-size: 14px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .areas p2 p3 p4 {
     font-size: 12px;
 }
 
+
+
 .areas img {
-    margin: 10px;
+    display: block;
     box-shadow: 0 0 30px #111;
-    
+    margin: 10px auto;
 }
 
 .bulletin {
