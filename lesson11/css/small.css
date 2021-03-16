@@ -170,6 +170,7 @@ main div.article img {
     opacity: .8;
     box-shadow: 0 0 30px #111;
     margin-top: 20px;
+    max-width: 300px;
 }
 
 .active {
@@ -310,7 +311,7 @@ form label.level {
     font-size: 18px;
 }
 
-div.areas section, p2, p3, p4 {
+div.areas section p2 p3 p4 {
     display: block;
     background-color: white;
     color: black;
@@ -335,7 +336,7 @@ div.areas section, p2, p3, p4 {
     margin-bottom: 10px;
 }
 
-.areas p2, p3, p4 {
+.areas p2 p3 p4 {
     font-size: 12px;
 }
 
@@ -404,3 +405,36 @@ div.areas section, p2, p3, p4 {
     filter: blur(0.2em);
     transition: filter 1.5s;
 }
+
+div.events section {
+    display: block;
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    max-width: 500px;
+    margin: 30px auto;
+    border: 2px solid black;
+}
+
+div.events section h3 {
+    font-size: 30px;
+    background-color: white;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    color: black;
+    max-width: 120%;
+    padding: 20px;
+    border: 2px dotted black;
+
+}
+
+div.events section p2{
+    padding: 20px;
+}
+
+div.events section p3 {
+    margin-bottom: 20px;
+}
+
+
