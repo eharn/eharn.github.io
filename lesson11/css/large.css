@@ -40,15 +40,15 @@ form {
 
 div.areas section, p2, p3, p4 {
     display: block;
-    background-color: white;
-    color: black;
+    background-color: #FFFFFF;
+    color: #000000;
     text-align: center;
 }
 
 .areas section {
     padding: 20px;
     margin: 10px;
-    border: 1px solid black;
+    border: 1px solid #000000;
     min-width: 220px;
 }
 

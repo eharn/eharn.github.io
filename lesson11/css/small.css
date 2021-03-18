@@ -128,11 +128,11 @@ nav {
 main div.article {
     display: block;
     background: #56545E;
-    border: 1px solid #000;
+    border: 1px solid #000000;
     font-size: 16px;
     max-width: 760px;
     margin: 0px auto;
-    color: white;
+    color: #FFFFFF;
     text-align: center;
 }
 
@@ -147,7 +147,7 @@ main div.article {
 
 main div.article img {
     max-width: 315px;
-    border: 1px solid black;
+    border: 1px solid #000000;
     box-shadow: 0 0 30px #111;
     width: 200px;
     float: left;
@@ -156,8 +156,8 @@ main div.article img {
 
 .footer1 {
     display: block;
-    background-color: white;
-    color: black;
+    background-color: #FFFFFF;
+    color: #000000;
     text-align: left;
     font-size: 8px;
     margin: 0px auto;
@@ -179,11 +179,11 @@ main div.article img {
     box-shadow: 0 0 30px #111;
     margin-top: 20px;
     max-width: 300px;
-    border: 1px solid black;
+    border: 1px solid #000000;
 }
 
 .active {
-    background-color: black;
+    background-color: #000000;
 }
 
 #fridaybanner {
@@ -192,7 +192,7 @@ main div.article img {
     background-color: rgb(214, 72, 98);
     padding: 20px;
     max-width: 760px;
-    color: white;
+    color: #FFFFFF;
     text-align: center;
 }
 
@@ -205,7 +205,7 @@ main div.article img {
     background-color:#BFBDC1;
     text-align: center;
     width: 75%;
-    border: 2px solid white;
+    border: 2px solid #FFFFFF;
     box-shadow: 0 0 10px #111;
     color: black;
 
@@ -230,8 +230,8 @@ div.gallery img {
 
 
 div.gallery p {
-    background-color: white;
-    color: black;
+    background-color: #FFFFFF;
+    color: #000000;
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
@@ -242,7 +242,7 @@ form {
     padding-top: 20px;
     display: block;
     background-color: #BFBDC1;
-    color: black;
+    color: #000000;
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
@@ -302,7 +302,7 @@ div.thankyou {
 
 form input.submitBtn {
     background-color: #56545E;
-    color: white;
+    color: #FFFFFF;
     border-radius: 1rem;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
@@ -322,16 +322,16 @@ form label.level {
 
 div.areas section p2, p3, p4 {
     display: block;
-    background-color: white;
-    color: black;
+    background-color: #FFFFFF;
+    color: #000000;
     text-align: center;
 }
 
 .areas section {
-    background-color: white;
+    background-color: #FFFFFF;
     padding: 20px;
     margin: 10px auto;
-    border: 1px solid black;
+    border: 1px solid #000000;
     min-width: 220px;
 }
 
@@ -365,17 +365,17 @@ div.areas section p2, p3, p4 {
 .bulletin {
     display: block;
     background-color: #56545E;
-    color: white;
+    color: #FFFFFF;
     max-width: 840px;
     margin: 0px auto;
 }
 
 .bulletin div {
-    background-color: white;
-    color: black;
+    background-color: #FFFFFF;
+    color: #000000;
     margin: 10px auto;
     min-width: 150px;
-    border: 2px solid black;
+    border: 2px solid #000000;
     width: 90%;
 }
 
@@ -392,7 +392,7 @@ div.areas section p2, p3, p4 {
 
 .cohead {
     padding: 10px;
-    border: 2px solid white;
+    border: 2px solid #FFFFFF;
 }
 
 .golden img {
@@ -424,24 +424,24 @@ div.areas section p2, p3, p4 {
 
 div.events section {
     display: block;
-    background-color: white;
-    color: black;
+    background-color: #FFFFFF;
+    color: #000000;
     text-align: center;
     padding: 20px;
     max-width: 500px;
     margin: 30px auto;
-    border: 2px solid black;
+    border: 2px solid #000000;
 }
 
 div.events section h3 {
     font-size: 30px;
-    background-color: white;
+    background-color: #FFFFFF;
     margin: 0px auto;
     margin-bottom: 20px;
-    color: black;
+    color: #000000;
     max-width: 120%;
     padding: 20px;
-    border: 2px dotted black;
+    border: 2px dotted #000000;
 
 }
 
