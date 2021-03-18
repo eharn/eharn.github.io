@@ -53,7 +53,10 @@ fetch(apiURL)
         if (list[i].dt_txt.includes("18:00:00")) {
             document.getElementById(days[counter]).textContent = Math.round(list[i].main.temp) + ' °F';
             var icon = "http://openweathermap.org/img/wn/" + list[i].weather[0].icon + "@2x.png";
+            var image_alt = (alt = list[i].weather[0].description)
             document.getElementById(iconday[countericon]).setAttribute('src', icon);
+            document.getElementById(iconday[countericon]).setAttribute('alt', image_alt);
+
 
 
             var dt = jsObject.list[i].dt;
