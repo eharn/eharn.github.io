@@ -85,7 +85,7 @@ if (document.getElementById("events")) {
       //console.table(jsonObject);  // temporary checking for valid response and data parsing
       const towns = jsonObject["towns"];
       for (let i = 0; i < towns.length; i++) {
-        if (i == 1 || i == 5 || i == 6) {
+        if (towns[i].name == "Preston" || towns[i].name == "Fish Haven" || towns[i].name == "Soda Springs") {
           let areas = document.createElement("section");
           let h3 = document.createElement("h3");
           let p = document.createElement("p");
