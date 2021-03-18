@@ -76,7 +76,7 @@ if (document.getElementById("events")) {
   }
 
 
-
+if (document.getElementById("areas")){
   fetch(requestURL)
     .then(function (response) {
       return response.json();
@@ -131,7 +131,7 @@ if (document.getElementById("events")) {
         startLazyLoad()
       }
     });
-
+  }
 
 
 const menunav = document.querySelector(".menu");
@@ -144,6 +144,10 @@ menunav.addEventListener(
   },
   false
 );
+
+if(document.getElementById("gallery")){
+  startLazyLoad();
+}
 
 function startLazyLoad() {
   let imagesToLoad = document.querySelectorAll("img[data-src]");
