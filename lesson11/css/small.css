@@ -163,9 +163,24 @@ main div.article img {
     margin: 0px auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    border: 1px solid #BFBDC1;
+    border: 2px solid #BFBDC1;
     padding-right: 0;
     max-width: 310px;
+
+}
+
+.footer3 {
+    display: block;
+    background-color: #FFFFFF;
+    color: #000000;
+    text-align: left;
+    font-size: 8px;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #BFBDC1;
+    padding-right: 0;
+    max-width: 610px;
 
 }
 

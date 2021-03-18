@@ -1,4 +1,4 @@
-@media only screen and (min-width: 36em){ 
+@media only screen and (min-width: 40em){ 
 
 
     header h1 {
@@ -179,7 +179,32 @@ div.areas section {
     margin: 10px;
 }
 
+.footer1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px auto;
+    margin-top: 20px;
+    max-width: 700px;
+    padding-bottom: 10px;
+}
 
+.footer1 p {
+    font-size: 10px;
+    margin-bottom: 5px;
+}
 
+.footer3 {
+    max-width: 700px;
+}
+
+.footinfoflat {
+    display: flex;
+    padding: 10px;
+}
+
+.footinfoflat img {
+    width: 6%;
+    padding: 4px;
+}
 
 }
