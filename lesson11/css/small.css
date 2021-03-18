@@ -355,9 +355,10 @@ div.areas section p2, p3, p4 {
 
 
 .areas img {
-    display: block;
+    margin: 0px auto;
     box-shadow: 0 0 30px #111;
-    margin: 10px auto;
+    max-width: 200px;
+    margin-top: 10px;
 }
 
 .bulletin {
