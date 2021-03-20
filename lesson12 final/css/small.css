@@ -1,0 +1,87 @@
+
+body {
+    background-color: #D6F3FF;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+h1, h2 {
+    font-family: Abril Fatface;
+}
+
+div.band {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: #16A6E0;
+    padding: 20px;
+    height: 200px;
+    margin: 0px auto;
+    color: #FFFFFF;
+    margin-top: 30px;
+    border-top: 10px solid #4A4825;
+    border-bottom: 10px solid #4A4825;
+}
+
+div.logo {
+    display: grid;
+    grid-column: 1;
+    justify-self: end;
+}
+
+.headlettering {
+    grid-column: 2/6;
+    margin-left: 5px;
+    margin-top: 75px;
+}
+
+.headlettering h1 {
+    margin: 0px;
+    margin-top: 5px;
+    margin-left: -5px;
+    font-size: 22px;
+}
+.headlettering p {
+    margin: 0px;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: px;
+}
+
+
+nav {
+    margin: 0 auto;
+    max-width: 760px;
+    background-color: #56545E;
+}
+
+.navbar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li:first-child {
+    display: block;
+}
+
+.navbar li {
+    display: none;
+}
+
+.navbar a {
+    display: block;
+    padding: 0.75rem;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.navbar a:hover {
+    color:  #000000;
+    background-color: #BFBDC1;
+}
+
+.responsive li {
+    display: block;
+}

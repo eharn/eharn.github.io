@@ -1,0 +1,30 @@
+@media only screen and (min-width: 38em){ 
+
+
+    div.logo {
+        grid-column: 2;
+        justify-self: end;
+    }
+    
+    .headlettering {
+        grid-column: 3/6;
+    }
+    
+    .headlettering h1 {
+        font-size: 25px;
+    }
+    .headlettering p {
+        font-size: 20px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
