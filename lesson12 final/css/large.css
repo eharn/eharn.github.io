@@ -9,11 +9,39 @@
         font-size: 20px;
     }
 
+    .big6 {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+.inactive {
+    display: grid;
+}
 
 
+div.block1 {
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+}
 
+.purpose {
+    grid-column: 2;
+}
 
+.spotlight {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+}
 
+.spotlight div {
+    display: block;
+    max-width: 270px;
+}
+
+.weather {
+    margin: 0px auto;
+}
 
 
 
