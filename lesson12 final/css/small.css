@@ -5,21 +5,21 @@ body {
     margin: 0px;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: Abril Fatface;
 }
 
 div.band {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    background-color: #16A6E0;
+    background-color: #4A4825;
     padding: 20px;
     height: 200px;
     margin: 0px auto;
     color: #FFFFFF;
     margin-top: 30px;
-    border-top: 10px solid #4A4825;
-    border-bottom: 10px solid #4A4825;
+    border-top: 10px solid #076B94;
+    border-bottom: 10px solid #076B94;
 }
 
 div.logo {
@@ -44,14 +44,15 @@ div.logo {
     margin: 0px;
     font-size: 12px;
     margin-top: 10px;
-    margin-left: px;
+
 }
 
 
 nav {
     margin: 0 auto;
-    max-width: 760px;
-    background-color: #56545E;
+    margin-top: 10px;
+    max-width: 900px;
+    background-color: #076B94;
 }
 
 .navbar {
@@ -70,7 +71,7 @@ nav {
 
 .navbar a {
     display: block;
-    padding: 0.75rem;
+    padding: 0.9rem;
     text-align: center;
     text-decoration: none;
     color: #FFFFFF;
@@ -78,10 +79,249 @@ nav {
 }
 
 .navbar a:hover {
-    color:  #000000;
-    background-color: #BFBDC1;
+    color: #FFFFFF;
+    background-color: #940F27;
 }
 
 .responsive li {
     display: block;
+}
+
+.big6 {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+.big6 img {
+    width: 100%;
+    max-width: 250px;
+    margin: 0px auto;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #076B94;
+}
+
+.herocall {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    margin-top: 20px;
+    color: white;
+}
+
+.herocall h3 {
+    font-size: 45px;
+    text-align: center;
+    margin-top: 0px;
+    border: 4px dotted #FFFFFF;
+}
+
+.herocall p:nth-child(1){
+    text-align: center;
+    background-color: #940F27;
+    padding: 5px;
+}
+
+.herocall :nth-child(3){
+    font-size: 22px;
+}
+
+.heroimg img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 8px;
+    max-width: 100%;
+}
+
+div.block1 {
+    grid-template-columns: 1fr;
+    grid-gap: 40px;
+}
+
+div.block1 div{
+    display: block;
+    background-color: #FFFFFF;
+    width: 100%;
+    min-height: 300px;
+    border-top: 4px solid #4A4825;
+    border-bottom: 4px solid #4A4825;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.block1 h2 {
+    color: #940F27;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 0px;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.block1 p {
+    color: #4A4825;
+    padding: 10px;
+    margin: 0px;
+    font-size: 12px;
+}
+
+.purpose {
+    grid-column: 1;
+}
+
+.upcoming {
+    margin-top: -20px;
+}
+
+.upcoming p {
+    grid-column: 1;
+    font-size: 12px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.spotlight div{
+    display: block;
+    grid-template-columns: 1fr;
+    background-color: #076B94;
+    width: 100%;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+
+.spotlight :nth-child(3) img {
+    padding: 0px;
+    border: 10px solid #FFFFFF;
+  
+}
+.spotlight div img {
+    display: block;
+    margin: 0px auto;
+    grid-column: 1;
+    padding-bottom: 10px;
+}
+
+.spotlight h2 {
+    color: #FFFFFF;
+    background-color: #940F27;
+    height: 50px;
+    grid-column: span 2;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.spotlight p {
+    font-size: 12px;
+    padding: 5px;
+}
+
+.hspot {
+    color: #076B94;
+    margin: 20px auto;
+    width: 75%;
+    padding: 20px;
+    font-size: 45px;
+    border: 4px dotted #076B94;
+    max-width: 900px;
+    text-align: center;
+}
+
+.ccity {
+    color: #FFFFFF;
+    margin: 30px auto;
+    width: 70%;
+    padding: 5px;
+    font-size: 30px;
+    border: 4px dotted #FFFFFF;
+    text-align: center;
+    align-self: start;
+}
+
+.weather {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 20px;
+    max-width: 400px;
+    margin: 0px auto;
+}
+
+.ccity {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.weather img {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 10px auto;
+    z-index: -1;
+    width: 100%;
+}
+
+.forecast div {
+    background-color: #076B94;
+    color: #FFFFFF;
+    width: 75px;
+    padding: 4px;
+    margin: 2px;
+    text-align: center;
+}
+
+.forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column: 1;
+    grid-row: 1;
+    align-self: end;
+    width: 75%;
+    margin: 2px auto;
+    margin-bottom: 30px;
+}
+
+.current {
+    background-color: #FFFFFF;
+    border: 4px solid #076B94;
+    text-align: center;
+    color: #076B94;
+    grid-column: 1;
+    grid-row: 1;
+    opacity: 70%;
+    align-self: center;
+    width: 72%;
+    margin: 0px auto;
+    margin-bottom: 40px;
+}
+
+.forecast h3 {
+    display: none;
+}
+
+.forecast img {
+    display: none;
+}
+
+
+.footer {
+    display: block;
+    grid-template-columns: 1fr 1fr;
+    background-color: #FFFFFF;
+    color: #4A4825;
+    text-align: left;
+    font-size: 12px;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #BFBDC1;
+    padding-right: 0;
+    max-width: 810px;
 }

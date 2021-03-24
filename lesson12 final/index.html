@@ -40,14 +40,35 @@
       </ul>
     </nav>
     
-        <div class="big5">
+        <div class="big6">
           <img src="images/hillroad.jpg" alt="sun over a grassy field"/>
           <img src="images/whoa.jpg" alt="woman riding a bucking bronco"/>
           <img src="images/group.jpg" alt="4 people with their arms around each other"/>
           <img src="images/wrangler.jpg" alt="wrangler building"/>
-          <img src="images/computer.jpg" alt="two people working at a computer"/>
+          <img class="inactive" src="images/computer.jpg" alt="two people working at a computer"/>
+          <img class="inactive" src="images/trucks.jpg" alt="old motor cars driving infront of the capital"/>
         </div>
-      
+    
+        <a href="#" id="herolink">
+        <div class="hero">
+          <div class="herocall">
+            <p>click here and</p>
+            <h3>Join Us!</h3>
+          
+            <p>Join our unique community and support your business and our community.
+              So many benefits, just a click away.
+            </p>
+        </div>
+          <picture class="heroimg">
+             <source media="(max-width: 300px)" srcset="images/handssm.jpg">
+             <source media="(max-width: 699px)" srcset="images/handsmed.jpg">
+             <source media="(min-width: 700px)" srcset="images/hands.jpg">
+             <img src="images/hands.jpg" alt="mountian landscape">
+         </picture>
+         </div>
+         </a>
+
+  <div class="block1">
     <div class="purpose">
       <h2>Our Purpose</h2>
       <p>As a community we need to build each other up and this is a way that we can help your buisness.
@@ -63,33 +84,87 @@
       </ol>
     </div>
 
-    <div>
+    <div class="upcoming">
+      <h2>Upcoming Events: </h2>
+          <p>Chamber of Commerce Conference: March 30</p>
+          <p>Community Art Display at the Civic Center: March 31</p>
+          <p>New Library Grand Opening: April 1st</p>
+          <p>Chamber Singers at the Civic Center: May 6-8, 13-15</p>
+          <p>Concert at the Depot: June 5, 19, and 3</p>
+          <p>Cheyenne Frontier Days: July 22-31</p>
+          <p>Greek Festival: August 6th</p>
+          <p>Michael Buble at the Civic Center: August 27th</p>
+          
+ </div>
+</div>
+ <h2 class="hspot">Monthly Spotlight:</h2>
+    <div class="spotlight"> 
+      <div>
+        <h2>Climb Wyoming</h2>
         <img src="images/climb-wyoming.jpg" alt="climb-wyoming logo"/>
-        <img src="images/roper.jpg" alt="Dr. Roper Associated Podiatrist logo"/>
+        <p>Supporting our communities families and moving the out of poverty
+          info@climbwyoming.org
+          <br>
+        <a href="https://www.facebook.com/climbwyoming/">Like us on Facebook</a>
+        </p>
+      </div>
+      <div>
+        <h2 >Associated Podiatrists</h2>
+        <img src="images/roper.jpg" alt="Dr. Roper Associated Podiatrist logo" width="185"/>
+        <p>Kicking off your shoes at the end of the day should be to relax, not to ease the pain. 
+          The caring staff at Associated Podiatrists can get you back on your feet.
+          <br>
+        <a href="https://www.facebook.com/ftdoc">Like us on Facebook</a></p>
+      </div>
+      <div>
+        <h2>Sewing Center</h2>
         <img src="images/sewing-center.jpg" alt="sewing center of Cheyenne logo"/>
+        <p>Over 40 years of experience on all brands of machines and our work is guaranteed. 
+          Come in to purchase a new machine or for our wide variety of classes.
+          Call us today (307)778-2717
+          <br>
+          <a href="https://www.facebook.com/SewingCenterofCheyenne">Like us on Facebook</a></p>
+      </div>
     </div>
 
-    <div class="areas" id="areas"></div>
 
-      <div class="upcoming">
-          <h2>Upcoming Events: </h2>
-          <ul>
-              <li>New Library Grand Opening: April 1</li>
-              <li>Chamber Singers at the Civic Center: May 6-8, 13-15</li>
-              <li>Concert at the Depot: June 5, 19, and 3</li>
-              <li>Cheyenne Frontier Days: July 22-31</li>
-              <li>Farmers Market at the Depot: August 7-10</li>
-          </ul>
-     </div>
+ 
 
      <div class="weather">
          
-        <h2>Weather in the Capital City</h2>
-        <img src="images/clouds.jpg" alt="billowing pink clouds"/>
-        <div id="weather" class="forcast"></div>  
+        <h2 class="ccity">Weather in the Capital City</h2>
+        <img src="images/cloudsL.jpg" alt="billowing pink clouds"/>
+        
+        <div class="current">
 
-     </div>
+          <h2>Weather Summary</h2>
+          <p>Currently: <span id="currently"></span></p>
+          <p>Temp: <span id="temp"></span></p>
+           <p>Humidity: <span id="humidity"></span></p>
 
+          </div>
+
+        <div class="forecast">
+          <h3>3 day forecast</h3>
+           <div>
+             <p>MON<span id="day1"></span></p>
+             <p>Cloudy<span id="description1"></span></p>
+             <p>34 °F<span id="forecast"></span></p>
+            </div>
+
+            <div>
+              <p>TUE<span id="day2"></span></p>
+              <p>Clear<span id="description2"></span></p>
+              <p>62 °F<span id="forecast2"></span></p>
+             </div>
+            
+             <div>
+              <p>WED<span id="day3"></span></p>
+              <p>Sunny<span id="description3"></span></p>
+              <p>87 °F<span id="forecast3"></span></p>
+             </div>
+            </div>
+          </div>
 
         
     </main>
@@ -104,18 +179,20 @@
           <img src="images/facebook.jpg" alt="instagram" width="22" />
           <img src="images/twitter.jpg" alt="twitter" width="20" />
         </div>
+        <div>
         <p>
-          &copy; Cheyenne City of Commerce | Eleanor Lofgreen | Wyoming |
+          &copy; <span id="currentdate"></span> Cheyenne City of Commerce | Eleanor Lofgreen | Wyoming |
           <a href="#">Resources</a>
         </p>
-        <p><span id="currentdate"></span></p>
-        <p class="mod">Last Updated: <span id="lastmodified"></span></p>
-       
+        
+        <p class="mod"> Last Updated: <span id="lastmodified"></span></p>
+      </div>
       </div>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/date.js" defer></script>
     <script src="js/fontload.js" defer></script>
     <script src="js/allpages.js" defer></script>
+  <!-- <script src="js/weatherapi.js" defer></script>-->
   </body>
 </html>

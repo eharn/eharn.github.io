@@ -17,14 +17,153 @@
         font-size: 20px;
     }
 
+    .navbar {
+        display: flex;
+    }
+    
+    .navbar li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    
+    .navbar a {
+        text-align: center;
+    }
+    
+    .navbar li:first-child {
+        display: none;
+    }
 
 
+.inactive {
+    display: none;
+}
+
+.big6 {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+div.block1{
+    display: grid;
+    grid-gap:12px;
+    grid-template-columns: 1fr 1fr;
+}
+
+div.block1 div {
+    border: 2px solid #4A4825;
+    margin: 10px auto;
+}
 
 
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0px auto;
+    margin-top: 20px;
+    max-width: 900px;
+    padding-top: 8px;
+}
 
+.heroimg{
+    grid-column: 2;
+}
 
+.heroimg img {
+    width: 100%;
+    max-width: 400px;
+}
 
+.hero h3 {
+    font-size: 30px;
+}
 
+.herocall :nth-child(3) {
+    margin-top: -30px;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.herocall {
+    margin-top: 0px
+}
+
+.spotlight div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 600px;
+    margin: 10px auto;
+    
+}
+
+.spotlight h2 {
+    grid-column: span 2;
+}
+
+.spotlight :nth-child(odd) img{
+    grid-column: 1;
+    align-self: center;
+}
+
+.spotlight :nth-child(even) p {
+    grid-column: 1;
+}
+.spotlight :nth-child(even) img {
+    grid-column: 2;
+    align-self: center;
+}
+.spotlight :nth-child(even) p {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.spotlight div p {
+    font-size: 18px;
+    padding: 16px;
+}
+
+.weather {
+
+    grid-template-rows: 1fr;
+    max-width: 800px;
+    margin: 0px auto;
+    max-width: 700px;
+}
+
+.current {
+    grid-column: 3;
+    align-self: start;
+    margin: 10px;
+    margin-top: 30px;
+    width: 95%;
+    opacity: 100%;
+    
+}
+
+.forecast {
+    display: block;
+    grid-column: 3;
+}
+
+.forecast div {
+    width: 100%;
+    margin: 10px auto;
+}
+
+.weather img, .ccity {
+    grid-column: 2;
+}
+
+.weather img {
+    min-width: 300px;
+}
+
+.forecast h3 {
+    display: block;
+    margin: 0px auto;
+    color: #4A4825;
+    text-align: center;
+
+}
 
 
 }
