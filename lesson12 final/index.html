@@ -32,10 +32,10 @@
       <ul class="navbar">
         <li><a class="menu" href="#">&#9776;Menu</a></li>
         <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="#">Our Town</a></li>
-        <li><a href="#">Join</a></li>
-        <li><a href="#">Directory</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="ourtown.html">Our Town</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
     
@@ -146,21 +146,21 @@
         <div class="forecast">
           <h3>3 day forecast</h3>
            <div>
-             <p>MON<span id="day1"></span></p>
-             <p>Cloudy<span id="description1"></span></p>
-             <p>34 °F<span id="forecast"></span></p>
+             <p><span id="day1"></span></p>
+             <p><span id="description1"></span></p>
+             <p><span id="forecast"></span></p>
             </div>
 
             <div>
-              <p>TUE<span id="day2"></span></p>
-              <p>Clear<span id="description2"></span></p>
-              <p>62 °F<span id="forecast2"></span></p>
+              <p><span id="day2"></span></p>
+              <p><span id="description2"></span></p>
+              <p><span id="forecast2"></span></p>
              </div>
             
              <div>
-              <p>WED<span id="day3"></span></p>
-              <p>Sunny<span id="description3"></span></p>
-              <p>87 °F<span id="forecast3"></span></p>
+              <p><span id="day3"></span></p>
+              <p><span id="description3"></span></p>
+              <p><span id="forecast3"></span></p>
              </div>
             </div>
           </div>
@@ -169,22 +169,25 @@
     </main>
 
     <footer>
-      <div class="footer">
-        <div class="footinfo">
-          <h3>Contact Information:</h3>
-          <p>email: cheycapitalcity@gmail.com</p>
+   
+        <div class="contactinfo">
+          <div class="icons">
+            <img src="images/instagram.jpg" alt="facebook" width="20" />
+            <img src="images/facebook.jpg" alt="instagram" width="22" />
+            <img src="images/twitter.jpg" alt="twitter" width="20" />
+          </div>
+          <h3>Contact Us:</h3>
+          <p>email: cheycapitalcitychamber@gmail.com</p>
           <p>phone: 307-700-7799</p>
-          <img src="images/instagram.jpg" alt="facebook" width="20" />
-          <img src="images/facebook.jpg" alt="instagram" width="22" />
-          <img src="images/twitter.jpg" alt="twitter" width="20" />
+          <a href="join.html">Learn more and Join Us</a>
+          <img class="mailboxes" src="images/mailboxes.jpg" alt="mailboxes in a row of greenery"/>
         </div>
         <div>
+        <div class="footer">
         <p>
           &copy; <span id="currentdate"></span> Cheyenne City of Commerce | Eleanor Lofgreen | Wyoming |
-          <a href="#">Resources</a>
-        </p>
-        
-        <p class="mod"> Last Updated: <span id="lastmodified"></span></p>
+          <a href="#"> Resources </a>
+       | Last Updated: <span id="lastmodified"></span></p>
       </div>
       </div>
     </footer>
@@ -192,6 +195,6 @@
     <script src="js/date.js" defer></script>
     <script src="js/fontload.js" defer></script>
     <script src="js/allpages.js" defer></script>
-  <!-- <script src="js/weatherapi.js" defer></script>-->
+    <script src="js/weatherapi.js" defer></script>
   </body>
 </html>
