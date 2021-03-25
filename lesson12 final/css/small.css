@@ -12,7 +12,7 @@ h1, h2, h3 {
 div.band {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    background-color: #4A4825;
+    background-color: #940F27;
     padding: 20px;
     height: 200px;
     margin: 0px auto;
