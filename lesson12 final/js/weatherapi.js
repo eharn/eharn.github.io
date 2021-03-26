@@ -17,30 +17,39 @@ fetch(apiURL)
 
     var day = ["Sun", "Mon", "Tue", "Wed", "Thurs", "Fri", "Sat"];
 
-    for (var i = 0; i < 10; i++) {
-        if (i == 7) { day[i] = day[0];}
-        if (i == 8) { day[i] = day[1];}
-        if (i == 9) { day[i] = day[2];}
+    for (var i = 0; i < 11; i++) {
         if (i == d + 1) {
-          document.getElementById("day1").textContent = day[i];
+          let count = i;
+          if (i == 7) { count = 0;}
+          if (i == 8) { count = 1;}
+          if (i == 9) { count = 2;}
+          document.getElementById("day1").textContent = day[count];
           document.getElementById("forecast").textContent =
-            Math.round(jsObject.daily[i].temp.day) + "°F";
+            Math.round(jsObject.daily[count].temp.day) + "°F";
           document.getElementById("description1").textContent =
-            jsObject.daily[i].weather[0].description;
+            jsObject.daily[count].weather[0].description;
         } 
         else if (i == d + 2) {
-          document.getElementById("day2").textContent = day[i];
+          let count = i;
+          if (i == 7) { count = 0;}
+          if (i == 8) { count = 1;}
+          if (i == 9) { count = 2;}
+          document.getElementById("day2").textContent = day[count];
           document.getElementById("forecast2").textContent =
-            Math.round(jsObject.daily[i].temp.day) + "°F";
+            Math.round(jsObject.daily[count].temp.day) + "°F";
           document.getElementById("description2").textContent =
-            jsObject.daily[i].weather[0].description;
+            jsObject.daily[count].weather[0].description;
         } 
         else if (i == d + 3) {
-          document.getElementById("day3").textContent = day[i];
+          let count = i;
+          if (i == 7) { count = 0;}
+          if (i == 8) { count = 1;}
+          if (i == 9) { count = 2;}
+          document.getElementById("day3").textContent = day[count];
           document.getElementById("forecast3").textContent =
-            Math.round(jsObject.daily[i].temp.day) + "°F";
+            Math.round(jsObject.daily[count].temp.day) + "°F";
           document.getElementById("description3").textContent =
-            jsObject.daily[i].weather[0].description;
+            jsObject.daily[count].weather[0].description;
         }
     }
   });

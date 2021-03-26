@@ -1,4 +1,4 @@
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 64em) {
 
   
     
@@ -43,6 +43,28 @@ div.block1 {
     margin: 0px auto;
 }
 
+
+.responsive {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
+    grid-gap: 10px;
+} 
+
+.cards section:nth-child(1), .cards section:nth-child(5) {
+    grid-column: 2;
+}
+
+.cards section:nth-child(2), .cards section:nth-child(6) {
+    grid-column: 3;
+}
+
+.cards section:nth-child(3), .cards section:nth-child(7) {
+    grid-column: 4;
+}
+
+.cards section:nth-child(4), .cards section:nth-child(8) {
+    grid-column: 5;
+} 
 
 
 
