@@ -345,19 +345,19 @@ div.block1 div{
 }
 
 .contactinfo a:link {
-    color: #ec8a9c;
+    color:#940F27;
 }
 
 .contactinfo a:visited{
-    color: #ec8a9c;
+    color: #940F27;
 }
 
 .contactinfo a:hover {
-    color: #940F27;
+    color: #076B94;
 }
 
 .spotlight a:hover, .footer a:hover {
-    color: #940F27;
+    color: #d0c5c8;
 }
 
 .contactinfo {
