@@ -244,7 +244,7 @@ div.block1 div{
 }
 
 .ccity {
-    color: #FFFFFF;
+    color: #076B94;
     padding: 20px;
     margin: 30px auto;
     width: 70%;
@@ -273,6 +273,7 @@ div.block1 div{
     margin: 10px auto;
     z-index: -1;
     width: 100%;
+    opacity: 50%;
 }
 
 .forecast div {
