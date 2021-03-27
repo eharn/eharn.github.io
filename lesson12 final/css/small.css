@@ -335,16 +335,28 @@ div.block1 div{
     color: #FFFFFF;
 }
 
-.footer a:visited, .contactinfo a:visited, .spotlight a:visited {
+.footer a:visited, .spotlight a:visited {
     color: #ec8a9c;
     
 }
 
-.footer a:link, .contactinfo a:link, .spotlight a:link {
+.footer a:link, .spotlight a:link {
     color: #ec8a9c;
 }
 
-.spotlight a:hover, .contactinfo a:hover, .footer a:hover {
+.contactinfo a:link {
+    color: #940F27;
+}
+
+.contactinfo a:visited{
+    color: #940F27;
+}
+
+.contactinfo a:hover {
+    color: #ec8a9c;
+}
+
+.spotlight a:hover, .footer a:hover {
     color: #940F27;
 }
 
