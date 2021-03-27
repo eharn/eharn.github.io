@@ -47,7 +47,7 @@ div.block1 {
 .responsive {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 2fr 2fr 1fr;
-    grid-gap: 10px;
+    
 } 
 
 .cards section:nth-child(1), .cards section:nth-child(5) {

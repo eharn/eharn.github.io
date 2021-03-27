@@ -361,14 +361,14 @@ div.block1 div{
     background-color: #FFFFFF;
     border: 2px solid #076B94;
     max-width: 700px;
-    min-width: 250px;
+    min-width: 150px;
     margin: 0 auto;
 }
 
 .cards section {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 10px auto;
+    margin: 20px auto;
     padding: 8px;
 }
 
@@ -379,10 +379,11 @@ div.block1 div{
 .responsive section{
     display: block;
     background-color: #FFFFFF;
+    min-width: 230px;
     max-width: 300px;
-    width: 100%;
+    width: 80%;
     height: 440px;
-    margin: 10px auto;
+    margin: 0px auto;
 }
 
 .cards h2 {

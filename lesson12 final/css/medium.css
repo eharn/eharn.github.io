@@ -190,7 +190,7 @@ div.block1 div {
 .responsive {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 5px;
 } 
 
 .cards section:nth-child(1) {

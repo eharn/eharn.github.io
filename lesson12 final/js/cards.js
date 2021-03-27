@@ -37,10 +37,20 @@ fetch(requestURL)
 });
 
 
-const buttons = document.querySelector(".buttons");
-const cards = document.querySelector(".cards")
+const grid = document.querySelector("#grid");
+const cards = document.querySelector(".cards");
 
-buttons.addEventListener(
+grid.addEventListener(
+  "click",
+  () => {
+    cards.classList.toggle("responsive");
+  },
+  false
+);
+
+const list = document.querySelector("#list");
+
+list.addEventListener(
   "click",
   () => {
     cards.classList.toggle("responsive");
