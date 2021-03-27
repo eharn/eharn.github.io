@@ -5,7 +5,7 @@ const mainnav = document.querySelector(".navbar");
 menunav.addEventListener(
   "click",
   () => {
-    mainnav.classList.toggle("responsive");
+    mainnav.classList.toggle("responsivemenu");
   },
   false
 );
