@@ -101,6 +101,7 @@ nav {
     background-color: #FFFFFF;
     padding: 10px;
 }
+
 .big6 img {
     width: 100%;
     max-width: 250px;
@@ -334,11 +335,12 @@ div.block1 div{
 }
 
 .footer a:visited, .contactinfo a:visited, .spotlight a:visited {
-    color: #8cd4f4;
+    color: #ec8a9c;
+    
 }
 
 .footer a:link, .contactinfo a:link, .spotlight a:link {
-    color: #8cd4f4;
+    color: #ec8a9c;
 }
 
 .spotlight a:hover, .contactinfo a:hover, .footer a:hover {
