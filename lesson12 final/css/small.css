@@ -336,12 +336,11 @@ div.block1 div{
 }
 
 .footer a:visited, .spotlight a:visited {
-    color: #d0c5c8;
-    
+    color: #FFFFFF;  
 }
 
 .footer a:link, .spotlight a:link {
-    color: #d0c5c8;
+    color: #FFFFFF;
 }
 
 .contactinfo a:link {
