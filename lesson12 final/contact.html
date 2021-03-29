@@ -38,8 +38,46 @@
         <li class="active"><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
-    
 
+    <form method="get" action="thankyou.html">
+      <h2 class="report">Contact Me</h2>
+      <fieldset>
+        <legend>How can we contact you:</legend>
+        <label class="top"
+          >First Name *
+          <input type="text" name="fname" required pattern="[A-Za-z]{5,}"
+        /></label>
+        <label class="top"
+          >Last Name *
+          <input type="text" name="lname" required pattern="[A-Za-z]{5,}"
+        /></label>
+        <label class="top"
+          >Email *
+          <input
+            type="email"
+            name="email"
+            required
+            placeholder="youremailhere@gmail.com"
+        /></label>
+        <label class="top"
+          >Phone Number <input type="tel" name="phone" required placeholder="1235551234"
+        /></label>
+      </fieldset>
+
+      <fieldset class="textbox">
+        <legend>Comment</legend>
+        <label for="comments">Share your thoughts with us:</label>
+        <textarea id="comments" name="additional" rows="5" cols="35"></textarea>
+      </fieldset>
+
+      <input type="submit" value="Contact Me" class="submitBtn" />
+    
+    </form>
+    
+    <div class="map">
+      <iframe class="smallmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96139.06830173968!2d-104.83513749831947!3d41.148803357121466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876f38762e73ef93%3A0xb10a30418f972d2b!2sCheyenne%2C%20WY!5e0!3m2!1sen!2sus!4v1617046687513!5m2!1sen!2sus" 
+      width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
         
     </main>
 
