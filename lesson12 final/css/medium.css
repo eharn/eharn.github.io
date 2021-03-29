@@ -184,6 +184,10 @@ div.block1 div {
         border: 4px solid #076B94;
     }
 
+    div.thankyou {
+        border: 4px solid #940F27;
+        }
+
 }
 
 
@@ -209,5 +213,20 @@ div.block1 div {
     width: 60%;
     margin: 0px auto;
 }
+
+form {
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 }

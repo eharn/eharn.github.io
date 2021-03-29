@@ -40,6 +40,109 @@
     </nav>
     
 
+
+    
+    <form method="get" action="thankyou.html">
+      <h2 class="report">Membership Form</h2>
+      <fieldset>
+        <legend>New Member Information</legend>
+        <label class="top"
+          >First Name *
+          <input type="text" name="fname" required pattern="[A-Za-z]{5,}"
+        /></label>
+        <label class="top"
+          >Last Name *
+          <input type="text" name="lname" required pattern="[A-Za-z]{5,}"
+        /></label>
+        <label class="top"
+        >Title
+        <input type="text" name="title" pattern="[A-Za-z]{5,}"
+      /></label>
+        <label class="top"
+          >Email *
+          <input
+            type="email"
+            name="email"
+            required
+            placeholder="youremailhere@gmail.com"
+        /></label>
+        <label class="top"
+          >Phone Number <input type="tel" name="phone" placeholder="1235551234"
+        /></label>
+        <label class="top"
+          >Business Name *
+          <input type="text" name="business" required pattern="[A-Za-z]{5,}"
+        /></label>
+        <label class="top"
+          >Business Address 
+          <input type="text" name="address" pattern="[A-Za-z0-9 ]{5,}"
+        /></label>
+        <label class="top"
+        >City 
+        <input type="text" name="city" pattern="[A-Za-z0-9 ]{5,}"
+      /></label>
+      <label class="top"
+      >Zip Code
+      <input type="number" name="zip" placeholder="55555"
+    /></label>
+        <label class="top"
+        >Website 
+        <input type="url" name="url" pattern="[A-Za-z]{5,}"
+      /></label>
+      </fieldset>
+
+      <fieldset class="textbox">
+        <legend>Buisness Descritpion</legend>
+        <label for="comments">Tell us about your business:</label>
+        <textarea id="comments" name="additional" rows="5" cols="35"></textarea>
+      </fieldset>
+
+      <fieldset class="radio">
+      <legend>Memebership Level</legend>
+        <label class="level"
+          ><input type="radio" name="level" value="yes" /> Non-Profit ($100)</label
+        >
+        <label class="level"
+          ><input type="radio" name="level" value="yes" /> Bronze ($200)</label
+        >
+        <label class="level"
+          ><input type="radio" name="level" value="yes" /> Silver ($400)</label>
+
+          <label class="level"
+          ><input type="radio" name="leve" value="yes" /> Gold ($1000)</label>
+          <p>*information about levels found at the bottom of the page
+          </p>
+          
+      </fieldset>
+
+      <fieldset class="textbox">
+        <legend>Additional Information</legend>
+        <label for="comments">Anything else you want us to know about your buisness:</label>
+        <textarea id="comments" name="additional" rows="5" cols="35"></textarea>
+      </fieldset>
+
+      <input type="submit" value="Become a Member" class="submitBtn" />
+    
+      <div>
+    <h3>Membership Levels:</h3>
+    <h4>Non-Profit ($100) </h4>
+    <p>This base level is displayed in our directory and gets a table every year for our Conference.</p>
+    <h4>Bronze ($200)</h4>
+    <p>This second tier with have the benifit of everything at the base level and receive luncheon tickets to 
+      our yearly conference. They will be included in all social media posts by the Chamber as well.</p>
+    <h4>Silver ($400)</h4>
+    <p>In addition to the first two levels, Silver level memberships have the opportunity to be added to 
+      any or all advertising included with the sponsorship of the Chamber.</p>
+    <h4>Gold ($1000)</h4>
+    <p>The top tier of membership with the chamber includes of all of our resources that have been mentioned
+      in the lower tiers. This top tier will also receive business trainings 4 times a year. One on one mentorship
+      will be provided for your business to create the highest level of suppport. Our annual conference will also
+      provide you with a reserved table at our luncheon and a table at the opening of the fair.
+    </p>
+  </div>
+  </form>
+
+
         
     </main>
 
@@ -70,6 +173,5 @@
     <script src="js/date.js" defer></script>
     <script src="js/fontload.js" defer></script>
     <script src="js/allpages.js" defer></script>
-    <script src="js/weatherapi.js" defer></script>
   </body>
 </html>
