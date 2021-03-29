@@ -66,6 +66,40 @@ div.block1 {
     grid-column: 5;
 } 
 
+.cheyenne {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: .2fr .2fr .5fr;
+}
+
+
+.bw {
+    grid-column: 2;
+    width: 100%;
+}
+
+.pop {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.fair {
+    display: none;
+}
+
+.history {
+    grid-column: span 2;
+    grid-row: 2;
+}
+.cheyenne p {
+    font-size: 14px;
+}
+
+
+
+
+
+
 
 
 }

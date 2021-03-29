@@ -201,4 +201,13 @@ div.block1 div {
     grid-column: 3;
 }
 
+.pop h3 {
+    font-size: 30px;
+}
+
+.cheyenne {
+    width: 60%;
+    margin: 0px auto;
+}
+
 }
