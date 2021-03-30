@@ -1,13 +1,15 @@
 @media only screen and (min-width: 38em){ 
 
-
     div.logo {
-        grid-column: 2;
+        display: grid;
+        grid-column: span 2;
         justify-self: end;
     }
     
+  
     .headlettering {
         grid-column: 3/6;
+        justify-self: start;
     }
     
     .headlettering h1 {
@@ -188,6 +190,10 @@ div.block1 div {
         border: 4px solid #940F27;
         }
 
+    .board {
+        border: 4px solid #076B94;
+    }
+
 }
 
 
@@ -218,7 +224,15 @@ form {
     padding: 20px;
 }
 
+.board {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
+.board h2 {
+    grid-column: span 2;
+    margin: 10px;
+}
 
 
 
