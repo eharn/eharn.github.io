@@ -335,6 +335,7 @@ div.block1 div{
     color: #FFFFFF;
 }
 
+
 .footer a:visited, .spotlight a:visited {
     color: #FFFFFF;  
 }
@@ -355,8 +356,17 @@ div.block1 div{
     color: #076B94;
 }
 
-.spotlight a:hover, .footer a:hover {
+.spotlight a:hover, .footer a:hover{
     color: #d0c5c8;
+}
+
+.join {
+    display: block;
+    background-color: #940F27;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    padding: 5px;
+    text-align: center;
 }
 
 .contactinfo {
