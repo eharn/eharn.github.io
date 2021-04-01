@@ -5,12 +5,12 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
+    //console.table(jsonObject);  // temporary checking for valid response and data parsing
     const company = jsonObject['directory']; 
     for (let i = 0; i < company.length; i++){
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
-    let p = document.createElement('p');
+    let a = document.createElement('a');
     let p2 = document.createElement('p2');
     let p3 = document.createElement('p3');
     let p4 = document.createElement('p4');
@@ -18,15 +18,18 @@ fetch(requestURL)
     
 
     h2.textContent = company[i].name;
-    p.textContent = company[i].website;
+    a.setAttribute("href", company[i].website);
+    a.innerHTML = company[i].website;
+    console.log(a);
+
     p2.textContent = company[i].phone;
     p3.textContent = company[i].address;
     p4.textContent = company[i].city;
     img.setAttribute('src', company[i].logo);
-    img.setAttribute('alt', company[i].name + "logo")
+    img.setAttribute('alt', company[i].name + "logo");
 
     card.appendChild(h2);
-    card.appendChild(p);
+    card.appendChild(a);
     card.appendChild(p2);
     card.appendChild(p3);
     card.appendChild(p4);

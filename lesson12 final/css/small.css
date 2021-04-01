@@ -340,6 +340,18 @@ div.block1 div{
     color: #FFFFFF;  
 }
 
+.cards a:link {
+    color: #076B94;
+}
+
+.cards a:visited {
+    color: #4A4825;
+}
+
+.cards a:hover {
+    color: #940F27;
+}
+
 .footer a:link, .spotlight a:link {
     color: #FFFFFF;
 }
@@ -383,7 +395,6 @@ div.block1 div{
 
 .cards section {
     background-color: #FFFFFF;
-    border: 2px solid #076B94;
     max-width: 700px;
     min-width: 150px;
     margin: 0 auto;
@@ -410,6 +421,9 @@ div.block1 div{
     margin: 0px auto;
 }
 
+.responsive a {
+    font-size: 12px;
+}
 .cards h2 {
     color: #940F27;
 }
@@ -422,6 +436,7 @@ div.buttons {
 
 .cards {
     text-align: center;
+    color:#4A4825;
 }
 
 .cards img {
@@ -492,7 +507,7 @@ form {
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 form fieldset {
@@ -527,22 +542,17 @@ form label.top input, form label.top select {
     display: block;
     font-size: 1rem;
     border: solid 1px #D6F3FF;
-    border-radius: 4px;
-    padding: .75rem;
+    border-radius: 7px;
+    padding: .8rem;
     color: #555;
-    width: 100%;
+    width: 90%;
     max-width: 18rem;
-}
-
-form div.slider {
-    margin-bottom: -15px;
-
 }
 
 form input.submitBtn {
     background-color: #940F27;
     color: #FFFFFF;
-    border-radius: 1rem;
+    border-radius: .75rem;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
     width: 96%;
@@ -604,3 +614,4 @@ div.thankyou {
 .board div {
     padding: 10px;
 }
+
