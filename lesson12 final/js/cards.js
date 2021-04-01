@@ -20,13 +20,14 @@ fetch(requestURL)
     h2.textContent = company[i].name;
     a.setAttribute("href", company[i].website);
     a.innerHTML = company[i].website;
-    console.log(a);
+   
 
     p2.textContent = company[i].phone;
     p3.textContent = company[i].address;
     p4.textContent = company[i].city;
-    img.setAttribute('src', company[i].logo);
+    img.setAttribute('src', 'images/' + company[i].logo);
     img.setAttribute('alt', company[i].name + "logo");
+    
 
     card.appendChild(h2);
     card.appendChild(a);
@@ -38,6 +39,8 @@ fetch(requestURL)
     }
 
 });
+
+
 
 
 const grid = document.querySelector("#grid");
