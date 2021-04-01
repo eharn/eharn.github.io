@@ -195,12 +195,11 @@ div.block1 div {
         border: 4px solid #076B94;
     }
 
-    .cards section {
+    .cards section, .responsive section{
         border: 4px solid #076B94;
     }
 
 }
-
 
 .responsive {
     display: grid;
@@ -208,11 +207,11 @@ div.block1 div {
     grid-gap: 5px;
 } 
 
-.cards section:nth-child(1) {
+.responsive section:nth-child(1) {
     grid-column: 2;
 }
 
-.cards section:nth-child(even) {
+.responsive section:nth-child(even) {
     grid-column: 3;
 }
 

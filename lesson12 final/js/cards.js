@@ -49,7 +49,7 @@ const cards = document.querySelector(".cards");
 grid.addEventListener(
   "click",
   () => {
-    cards.classList.toggle("responsive");
+    cards.classList = "responsive";
   },
   false
 );
@@ -59,7 +59,9 @@ const list = document.querySelector("#list");
 list.addEventListener(
   "click",
   () => {
-    cards.classList.toggle("responsive");
+    cards.classList = "cards";
   },
   false
 );
+
+
