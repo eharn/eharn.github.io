@@ -240,7 +240,11 @@ form {
     margin: 10px;
 }
 
-
+.smmap {
+    display: block;
+    width: 55%;
+    margin: 0px auto;
+}
 
 
 
