@@ -1,4 +1,4 @@
-const requestURL = "http://127.0.0.1:5500/final/json/directory.html";
+const requestURL = "/final/json/directory.html";
 
 fetch(requestURL)
   .then(function (response) {
