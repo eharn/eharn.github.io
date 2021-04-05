@@ -1,6 +1,6 @@
-const requestURL = "/final/json/directory.html";
+const requestFile = "/final/json/directory.html";
 
-fetch(requestURL)
+fetch(requestFile)
   .then(function (response) {
     return response.json();
   })
